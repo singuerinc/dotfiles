@@ -7,16 +7,12 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
-alias j="jobs"
 alias v="vim"
-alias m="mate ."
-alias s="subl ."
+alias s="st ."
 alias o="open"
 alias oo="open ."
 
@@ -130,3 +126,8 @@ done
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+alias tf="tail -f ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
+alias tv="open /Volumes/tron/tvshows"
+
+alias code="cd /Volumes/work/code/"
