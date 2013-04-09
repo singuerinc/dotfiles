@@ -9,12 +9,15 @@ config resizePercentOf screenSize
 bind esc:cmd hint
 
 bind pad1:cmd,shift move screenOriginX;screenOriginY screenSizeX*0.6;screenSizeY
-bind pad2:cmd,shift move screenOriginX;screenSizeY/2 screenSizeX;screenSizeY
+bind pad2:cmd,shift move screenOriginX;screenOriginY+(screenSizeY/2) screenSizeX;screenSizeY/2
 bind pad4:cmd,shift move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
 bind pad5:cmd,shift move screenOriginX+(screenSizeX/12);screenOriginY+75 (screenSizeX)-(screenSizeX/6);screenSizeY-150
 bind pad6:cmd,shift move screenOriginX+(screenSizeX/2);screenOriginY screenSizeX/2;screenSizeY
 bind pad7:cmd,shift move screenOriginX+(screenSizeX/12);screenOriginY (screenSizeX)-(screenSizeX/6);screenSizeY
 bind pad8:cmd,shift move screenOriginX;screenOriginY screenSizeX;screenSizeY/2
 bind pad0:cmd,shift move screenOriginX;screenOriginY screenSizeX;screenSizeY
+
+bind pad9:cmd,shift resize +0 -10%
+bind pad3:cmd,shift resize +0 +10%
 
 bind 1:ctrl grid padding:2 1920x1200:6,9
