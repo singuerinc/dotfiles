@@ -2,20 +2,18 @@
 # If no ~/.slate file exists this is the file that will be used.
 
 config defaultToCurrentScreen true
-config nudgePercentOf screenSize
-config resizePercentOf screenSize
 
 # Window Hints
 bind esc:cmd hint
 
-bind pad1:cmd,shift move screenOriginX;screenOriginY screenSizeX*0.6;screenSizeY
+bind pad1:cmd,shift corner top-left resize:screenSizeX*0.6;screenSizeY
 bind pad2:cmd,shift move screenOriginX;screenOriginY+(screenSizeY/2) screenSizeX;screenSizeY/2
-bind pad4:cmd,shift move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
+bind pad4:cmd,shift corner top-left resize:screenSizeX/2;screenSizeY
 bind pad5:cmd,shift move screenOriginX+(screenSizeX/12);screenOriginY+75 (screenSizeX)-(screenSizeX/6);screenSizeY-150
-bind pad6:cmd,shift move screenOriginX+(screenSizeX/2);screenOriginY screenSizeX/2;screenSizeY
+bind pad6:cmd,shift corner top-right resize:screenSizeX/2;screenSizeY
 bind pad7:cmd,shift move screenOriginX+(screenSizeX/12);screenOriginY (screenSizeX)-(screenSizeX/6);screenSizeY
-bind pad8:cmd,shift move screenOriginX;screenOriginY screenSizeX;screenSizeY/2
-bind pad0:cmd,shift move screenOriginX;screenOriginY screenSizeX;screenSizeY
+bind pad8:cmd,shift corner top-left resize:screenSizeX;screenSizeY/2
+bind pad0:cmd,shift corner top-left resize:screenSizeX;screenSizeY
 
 bind pad9:cmd,shift resize +0 -10%
 bind pad3:cmd,shift resize +0 +10%
@@ -25,4 +23,4 @@ alias move2center move screenOriginX+((screenSizeX/2)-(windowSizeX/2));screenOri
 bind pad+:cmd,shift sequence resize +50 +50 | ${move2center}
 bind pad-:cmd,shift sequence resize -50 -50 | ${move2center}
 
-bind 1:ctrl grid padding:2 1920x1200:6,9
+bind 1:ctrl grid padding:1 1920x1200:6,9 1680x1050:9,6
