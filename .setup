@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ln -sf $PWD/.aliases ~/.aliases
 ln -sf $PWD/.gemrc ~/.gemrc
 ln -sf $PWD/.gitattributes ~/.gitattributes
