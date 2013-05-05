@@ -38,9 +38,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+source ~/.singuerinc
+
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 source ~/.aliases
+source ~/.functions
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
