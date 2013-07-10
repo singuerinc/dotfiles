@@ -131,6 +131,3 @@ alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 alias tf="tail -f ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
-alias tv="open /Volumes/tron/tvshows"
-
-alias code="cd /Volumes/work/code/"
