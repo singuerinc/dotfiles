@@ -24,3 +24,7 @@ bind pad+:cmd,shift sequence resize +50 +50 | ${move2center}
 bind pad-:cmd,shift sequence resize -50 -50 | ${move2center}
 
 bind 1:ctrl grid padding:1 1920x1200:6,9 1680x1050:9,6
+
+bind f19:cmd,shift move screenOriginX+(screenSizeX/6);screenOriginY+75 (screenSizeX)-(screenSizeX/3);screenSizeY-150
+bind f18:cmd,shift move screenOriginX+(screenSizeX/6);screenOriginY (screenSizeX)-(screenSizeX/3);screenSizeY
+bind f17:cmd,shift move screenOriginX;screenOriginY+75 screenSizeX;screenSizeY-150
