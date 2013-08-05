@@ -13,7 +13,7 @@ bind pad5:cmd,shift move screenOriginX+(screenSizeX/12);screenOriginY+75 (screen
 bind pad6:cmd,shift corner top-right resize:screenSizeX/2;screenSizeY
 bind pad7:cmd,shift move screenOriginX+(screenSizeX/12);screenOriginY (screenSizeX)-(screenSizeX/6);screenSizeY
 bind pad8:cmd,shift corner top-left resize:screenSizeX;screenSizeY/2
-bind pad0:cmd,shift corner top-left resize:screenSizeX;screenSizeY
+bind pad0:cmd,shift move screenOriginX+10;screenOriginY+10 screenSizeX-20;screenSizeY-20
 
 bind pad9:cmd,shift resize +0 -10%
 bind pad3:cmd,shift resize +0 +10%
