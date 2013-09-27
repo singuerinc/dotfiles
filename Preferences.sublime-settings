@@ -11,10 +11,7 @@
 		".git",
 		".hg",
 		"CVS",
-		"_build",
-		"dist",
-		"build",
-		"site"
+		"_build"
 	],
 	"font_face": "Menlo",
 	"font_options":
