@@ -1,7 +1,7 @@
 {
 	"auto_complete": false,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
 	"draw_white_space": "selection",
 	"find_selected_text": true,
 	"fold_buttons": false,
