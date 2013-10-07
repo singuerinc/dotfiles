@@ -49,8 +49,7 @@ source ~/.singuerinc
 
 source ~/.aliases
 source ~/.functions
-source ~/src/dotfiles/.singuerinc
+
+unalias j
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
-cd /Volumes/work/code
