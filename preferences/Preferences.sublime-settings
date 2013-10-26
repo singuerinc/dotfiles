@@ -1,7 +1,7 @@
 {
 	"auto_complete": false,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Theme - Farzher/WebDeveloperDark.tmTheme",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"draw_white_space": "selection",
 	"find_selected_text": true,
 	"fold_buttons": false,
