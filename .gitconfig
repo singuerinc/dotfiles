@@ -83,11 +83,11 @@
 [github]
 	token = a6a69598af144798a3590e491f2e69c63e1834df
 [user]
-	name = Nahuel Scotti
+	name = singuerinc
 	email = nahuel.scotti@gmail.com
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
