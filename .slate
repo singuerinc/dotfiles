@@ -29,9 +29,6 @@ bind pad1:cmd,shift ${num1}
 bind pad2:cmd,shift ${num2}
 # bind 2:cmd,shift ${num2}
 
-bind pad3:cmd,shift ${num3}
-# bind 3:cmd,shift ${num3}
-
 bind pad4:cmd,shift ${num4}
 # bind 4:cmd,shift ${num4}
 
@@ -53,6 +50,9 @@ bind pad0:cmd,shift ${num0}
 bind pad9:cmd,shift ${num9}
 # bind 9:cmd,shift ${num9}
 
+bind pad3:cmd,shift ${num3}
+# bind 3:cmd,shift ${num3}
+
 bind pad+:cmd,shift sequence resize +50 +50 | ${move2center}
 bind pad-:cmd,shift sequence resize -50 -50 | ${move2center}
 
@@ -60,9 +60,9 @@ bind f19:cmd,shift ${f19}
 bind f18:cmd,shift ${f18}
 bind f17:cmd,shift ${f17}
 
-# bind f12:cmd,shift ${f19}
-# bind f11:cmd,shift ${f18}
-# bind f10:cmd,shift ${f17}
+bind f12:cmd,shift ${f19}
+bind f11:cmd,shift ${f18}
+bind f10:cmd,shift ${f17}
 
 
 bind 1:ctrl grid padding:1 1920x1200:6,9 1680x1050:9,6
