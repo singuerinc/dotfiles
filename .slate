@@ -19,39 +19,40 @@ alias num8 corner top-left resize:screenSizeX;screenSizeY/2
 alias num9 resize +0 -10%
 alias num0 move screenOriginX+10;screenOriginY+10 screenSizeX-20;screenSizeY-20
 
+alias f16 move screenOriginX+(screenSizeX/6);screenOriginY+125 (screenSizeX)-(screenSizeX/3);screenSizeY-400
 alias f17 move screenOriginX;screenOriginY+75 screenSizeX;screenSizeY-150
 alias f18 move screenOriginX+(screenSizeX/6);screenOriginY (screenSizeX)-(screenSizeX/3);screenSizeY
 alias f19 move screenOriginX+(screenSizeX/6);screenOriginY+75 (screenSizeX)-(screenSizeX/3);screenSizeY-150
 
 bind pad1:cmd,shift ${num1}
-# bind 1:cmd,shift ${num1}
+bind 1:cmd,shift ${num1}
 
 bind pad2:cmd,shift ${num2}
-# bind 2:cmd,shift ${num2}
+bind 2:cmd,shift ${num2}
 
 bind pad4:cmd,shift ${num4}
 # bind 4:cmd,shift ${num4}
 
 bind pad5:cmd,shift ${num5}
-# bind 5:cmd,shift ${num5}
+bind 5:cmd,shift ${num5}
 
 bind pad6:cmd,shift ${num6}
-# bind 6:cmd,shift ${num6}
+bind 6:cmd,shift ${num6}
 
 bind pad7:cmd,shift ${num7}
-# bind 7:cmd,shift ${num7}
+bind 7:cmd,shift ${num7}
 
 bind pad8:cmd,shift ${num8}
-# bind 8:cmd,shift ${num8}
+bind 8:cmd,shift ${num8}
 
 bind pad0:cmd,shift ${num0}
-# bind 0:cmd,shift ${num0}
+bind 0:cmd,shift ${num0}
 
 bind pad9:cmd,shift ${num9}
-# bind 9:cmd,shift ${num9}
+bind 9:cmd,shift ${num9}
 
 bind pad3:cmd,shift ${num3}
-# bind 3:cmd,shift ${num3}
+bind 3:cmd,shift ${num3}
 
 bind pad+:cmd,shift sequence resize +50 +50 | ${move2center}
 bind pad-:cmd,shift sequence resize -50 -50 | ${move2center}
@@ -59,6 +60,7 @@ bind pad-:cmd,shift sequence resize -50 -50 | ${move2center}
 bind f19:cmd,shift ${f19}
 bind f18:cmd,shift ${f18}
 bind f17:cmd,shift ${f17}
+bind f16:cmd,shift ${f16}
 
 bind f12:cmd,shift ${f19}
 bind f11:cmd,shift ${f18}
