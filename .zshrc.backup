@@ -11,7 +11,6 @@ ZSH_THEME="mh"
 ZSH_THEME="josh"
 ZSH_THEME="random"
 ZSH_THEME="frisk"
-ZSH_THEME="flazz"
 
 # Example aliases
 alias zshconfig="st ~/.zshrc"
@@ -54,5 +53,3 @@ source ~/.functions
 unalias j
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
-export PATH=$PATH:/Users/singuerinc/google-cloud-sdk/bin
