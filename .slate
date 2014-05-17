@@ -19,6 +19,7 @@ alias num8 corner top-left resize:screenSizeX;screenSizeY/2
 alias num9 resize +0 -10%
 alias num0 move screenOriginX+10;screenOriginY+10 screenSizeX-20;screenSizeY-20
 
+bind f13:cmd,shift move screenOriginX+((screenSizeX/2)-720);screenOriginY+((screenSizeY/2)-412) 1440;824
 alias f16 move screenOriginX+(screenSizeX/6);screenOriginY+125 (screenSizeX)-(screenSizeX/3);screenSizeY-400
 alias f17 move screenOriginX;screenOriginY+75 screenSizeX;screenSizeY-150
 alias f18 move screenOriginX+(screenSizeX/6);screenOriginY (screenSizeX)-(screenSizeX/3);screenSizeY
