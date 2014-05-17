@@ -11,6 +11,7 @@ ZSH_THEME="mh"
 ZSH_THEME="josh"
 ZSH_THEME="random"
 ZSH_THEME="frisk"
+ZSH_THEME="flazz"
 
 # Example aliases
 alias zshconfig="st ~/.zshrc"

@@ -52,7 +52,7 @@ bind pad9:cmd,shift ${num9}
 bind 9:cmd,shift ${num9}
 
 bind pad3:cmd,shift ${num3}
-bind 3:cmd,shift ${num3}
+# bind 3:cmd,shift ${num3}
 
 bind pad+:cmd,shift sequence resize +50 +50 | ${move2center}
 bind pad-:cmd,shift sequence resize -50 -50 | ${move2center}
