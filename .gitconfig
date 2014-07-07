@@ -81,22 +81,22 @@
 [push]
 	default = simple
 [github]
-	token = a6a69598af144798a3590e491f2e69c63e1834df
+	token = b8fccb8155281beae741b6197541ed6e146ef053
 [user]
 	name = Nahuel Scotti
 	email = nahuel.scotti@gmail.com
 [difftool "sourcetree"]
-	cmd = /usr/local/bin/ksdiff -w \"$LOCAL\" \"$REMOTE\"
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 
 [credential]
-helper = /opt/boxen/bin/boxen-git-credential
+	helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+	excludesfile = /opt/boxen/config/git/gitignore
 
 [hub]
-protocol = https
-[mergetool]
-	keepBackup = true
-	default = matching
+	protocol = https
