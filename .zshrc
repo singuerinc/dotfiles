@@ -5,13 +5,8 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="crcandy"
-ZSH_THEME="ys"
-ZSH_THEME="mh"
-ZSH_THEME="josh"
-ZSH_THEME="random"
-ZSH_THEME="frisk"
-ZSH_THEME="flazz"
+ZSH_THEME="clean"
+ZSH_THEME="garyblessington"
 
 # Example aliases
 alias zshconfig="st ~/.zshrc"
@@ -51,6 +46,7 @@ source ~/.singuerinc
 source ~/.aliases
 source ~/.functions
 
+alias ports="sudo lsof -i -P|grep -e 'LISTEN'"
 unalias j
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
