@@ -37,6 +37,9 @@ plugins=(git sublime)
 
 source $ZSH/oh-my-zsh.sh
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Customize to your needs...
 
 source ~/.singuerinc

@@ -69,17 +69,7 @@
 	whitespace = fix
 
 [core]
-
-	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = /opt/boxen/config/git/gitignore
-	attributesfile = ~/.gitattributes
-
-	# Treat spaces before tabs, lines that are indented with 8 or more spaces, and
-	# all kinds of trailing whitespace as an error.
-	# [default] trailing-space: looks for spaces at the end of a line
-	# [default] space-before-tab: looks for spaces before tabs at the beginning of
-	# a line
-	whitespace = space-before-tab,indent-with-non-tab,trailing-space
 
 [color]
 
@@ -122,14 +112,7 @@
 	log = true
 
 [push]
-
-	# Use the Git 1.x.x default to avoid errors on machines with old Git
-	# installations. To use `simple` instead, add this to your `~/.extra` file:
-	# `git config --global push.default simple`. See http://git.io/mMah-w.
-	default = matching
-
-# URL shorthands
-
+	default = simple
 [url "git@github.com:"]
 
 	insteadOf = "gh:"
@@ -157,7 +140,7 @@
 	email = nahuel.scotti@gmail.com
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -167,6 +150,7 @@
 
 [core]
 	excludesfile = /opt/boxen/config/git/gitignore
+	autocrlf = input
 
 [hub]
 	protocol = https
