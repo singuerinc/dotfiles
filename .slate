@@ -4,7 +4,7 @@
 config defaultToCurrentScreen true
 
 # Window Hints
-bind esc:cmd hint
+# bind esc:cmd hint
 
 alias move2center move screenOriginX+((screenSizeX/2)-(windowSizeX/2));screenOriginY+((screenSizeY/2)-(windowSizeY/2)) newWindowSizeX;newWindowSizeY
 
@@ -17,7 +17,7 @@ alias num6 corner top-right resize:screenSizeX/2;screenSizeY
 alias num7 move screenOriginX+(screenSizeX/12);screenOriginY (screenSizeX)-(screenSizeX/6);screenSizeY
 alias num8 corner top-left resize:screenSizeX;screenSizeY/2
 alias num9 corner top-right resize:screenSizeX/2;screenSizeY/2
-alias num0 move screenOriginX+10;screenOriginY+10 screenSizeX-20;screenSizeY-20
+alias num0 move screenOriginX;screenOriginY screenSizeX;screenSizeY
 
 bind f13:cmd,shift move screenOriginX+((screenSizeX/2)-720);screenOriginY+((screenSizeY/2)-412) 1440;824
 alias f14 move screenOriginX;screenOriginY (screenSizeX/3);screenSizeY
