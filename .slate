@@ -19,7 +19,7 @@ alias num8 corner top-left resize:screenSizeX;screenSizeY/2
 alias num9 corner top-right resize:screenSizeX/2;screenSizeY/2
 alias num0 move screenOriginX;screenOriginY screenSizeX;screenSizeY
 
-bind f13:cmd,shift move screenOriginX+((screenSizeX/2)-720);screenOriginY+((screenSizeY/2)-412) 1440;824
+bind f13:return,ctrl,alt move screenOriginX+((screenSizeX/2)-720);screenOriginY+((screenSizeY/2)-412) 1440;824
 alias f14 move screenOriginX;screenOriginY (screenSizeX/3);screenSizeY
 alias f15 move screenOriginX+(screenSizeX/3);screenOriginY (screenSizeX)-(screenSizeX/3);screenSizeY
 alias f16 move screenOriginX+(screenSizeX/6);screenOriginY+125 (screenSizeX)-(screenSizeX/3);screenSizeY-400
@@ -30,54 +30,64 @@ alias f19 move screenOriginX+(screenSizeX/6);screenOriginY+75 (screenSizeX)-(scr
 alias home corner top-left resize:screenSizeX/2;screenSizeY/2
 alias end corner bottom-left resize:screenSizeX/2;screenSizeY/2
 
-bind pad1:cmd,shift ${num1}
-bind 1:cmd,shift ${num1}
+bind pad1:return,ctrl,alt ${num1}
+bind 1:return,ctrl,alt ${num1}
+bind z:return,ctrl,alt ${num1}
 
-bind pad2:cmd,shift ${num2}
-bind 2:cmd,shift ${num2}
+bind pad2:return,ctrl,alt ${num2}
+bind 2:return,ctrl,alt ${num2}
+bind x:return,ctrl,alt ${num2}
 
-bind pad4:cmd,shift ${num4}
-# bind 4:cmd,shift ${num4}
+bind pad3:return,ctrl,alt ${num3}
+bind 3:return,ctrl,alt ${num3}
+bind c:return,ctrl,alt ${num3}
+bind pageDown:return,ctrl,alt ${num3}
 
-bind pad5:cmd,shift ${num5}
-bind 5:cmd,shift ${num5}
+bind pad4:return,ctrl,alt ${num4}
+bind 4:return,ctrl,alt ${num4}
+bind a:return,ctrl,alt ${num4}
 
-bind pad6:cmd,shift ${num6}
-bind 6:cmd,shift ${num6}
+bind pad5:return,ctrl,alt ${num5}
+bind 5:return,ctrl,alt ${num5}
+bind s:return,ctrl,alt ${num5}
 
-bind pad7:cmd,shift ${num7}
-bind 7:cmd,shift ${num7}
+bind pad6:return,ctrl,alt ${num6}
+bind 6:return,ctrl,alt ${num6}
+bind d:return,ctrl,alt ${num6}
 
-bind pad8:cmd,shift ${num8}
-bind 8:cmd,shift ${num8}
+bind pad7:return,ctrl,alt ${num7}
+bind 7:return,ctrl,alt ${num7}
+bind q:return,ctrl,alt ${num7}
 
-bind pad0:cmd,shift ${num0}
-bind 0:cmd,shift ${num0}
+bind pad8:return,ctrl,alt ${num8}
+bind 8:return,ctrl,alt ${num8}
+bind w:return,ctrl,alt ${num8}
 
-bind pad9:cmd,shift ${num9}
-bind 9:cmd,shift ${num9}
-bind pageUp:cmd,shift ${num9}
+bind pad9:return,ctrl,alt ${num9}
+bind 9:return,ctrl,alt ${num9}
+bind e:return,ctrl,alt ${num9}
+bind pageUp:return,ctrl,alt ${num9}
 
-bind pad3:cmd,shift ${num3}
-bind 3:cmd,shift ${num3}
-bind pageDown:cmd,shift ${num3}
+bind pad0:return,ctrl,alt ${num0}
+bind 0:return,ctrl,alt ${num0}
+bind space:return,ctrl,alt ${num0}
 
-bind home:cmd,shift ${home}
-bind end:cmd,shift ${end}
+bind home:return,ctrl,alt ${home}
+bind end:return,ctrl,alt ${end}
 
-bind pad+:cmd,shift sequence resize +50 +50 | ${move2center}
-bind pad-:cmd,shift sequence resize -50 -50 | ${move2center}
+bind pad+:return,ctrl,alt sequence resize +50 +50 | ${move2center}
+bind pad-:return,ctrl,alt sequence resize -50 -50 | ${move2center}
 
-bind f19:cmd,shift ${f19}
-bind f18:cmd,shift ${f18}
-bind f17:cmd,shift ${f17}
-bind f16:cmd,shift ${f16}
-bind f15:cmd,shift ${f15}
-bind f14:cmd,shift ${f14}
+bind f19:return,ctrl,alt ${f19}
+bind f18:return,ctrl,alt ${f18}
+bind f17:return,ctrl,alt ${f17}
+bind f16:return,ctrl,alt ${f16}
+bind f15:return,ctrl,alt ${f15}
+bind f14:return,ctrl,alt ${f14}
 
-bind f12:cmd,shift ${f19}
-bind f11:cmd,shift ${f18}
-bind f10:cmd,shift ${f17}
+bind f12:return,ctrl,alt ${f19}
+bind f11:return,ctrl,alt ${f18}
+bind f10:return,ctrl,alt ${f17}
 
 
 bind 1:ctrl grid padding:1 1920x1200:6,9 1680x1050:9,6
