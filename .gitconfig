@@ -43,6 +43,8 @@
 	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
  	dlc = diff --cached HEAD^
 
+	# Remove the old tag with this name and tag the latest commit with it.
+	retag = "!r() { git tag -d $1 && git push origin :refs/tags/$1 && git tag $1; }; r"
 
 	# Find branches containing commit
 	fb = "!f() { git branch -a --contains $1; }; f"
@@ -83,6 +85,10 @@
 [core]
 	excludesfile = /opt/boxen/config/git/gitignore
 
+	# Prevent showing files whose names contain non-ASCII symbols as unversioned.
+	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
+	precomposeunicode = false
+
 [color]
 
 	# Use colors in Git commands that are capable of colored output when
@@ -113,6 +119,10 @@
 	# Detect copies as well as renames
 	renames = copies
 
+[diff "bin"]
+	# Use `hexdump` to diff binary files
+	textconv = hexdump -v -C
+
 [help]
 
 	# Automatically correct and execute mistyped commands
@@ -124,7 +134,15 @@
 	log = true
 
 [push]
-	default = simple
+	# Use the Git 1.x.x default to avoid errors on machines with old Git
+	# installations. To use `simple` instead, add this to your `~/.extra` file:
+	# `git config --global push.default simple`. See http://git.io/mMah-w.
+	default = matching
+	# Make `git push` push relevant annotated tags when pushing branches out.
+	followTags = true
+
+# URL shorthands
+
 [url "git@github.com:"]
 
 	insteadOf = "gh:"
