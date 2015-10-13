@@ -45,3 +45,5 @@ unalias j
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 eval $(docker-machine env default)
+
+KEYTIMEOUT=1

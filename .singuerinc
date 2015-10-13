@@ -1,10 +1,4 @@
 #!/bin/bash
-
-alias vup="vagrant up && vagrant ssh"
-alias tommotek="j controller && vup"
-
 alias j="autojump"
-
 alias ports="sudo lsof -i -P"
-
 alias sub="subliminal download -l es"
