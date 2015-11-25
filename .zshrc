@@ -8,6 +8,9 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="clean"
 ZSH_THEME="garyblessington"
 ZSH_THEME="pure"
+ZSH_THEME="dracula"
+ZSH_THEME="cobalt2"
+ZSH_THEME="honukai"
 
 # Example aliases
 alias zshconfig="st ~/.zshrc"
