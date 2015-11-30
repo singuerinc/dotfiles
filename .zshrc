@@ -9,8 +9,9 @@ ZSH_THEME="clean"
 ZSH_THEME="garyblessington"
 ZSH_THEME="pure"
 ZSH_THEME="dracula"
-ZSH_THEME="cobalt2"
 ZSH_THEME="honukai"
+ZSH_THEME="gozilla"
+ZSH_THEME="mrtazz"
 
 # Example aliases
 alias zshconfig="st ~/.zshrc"
