@@ -44,6 +44,10 @@ unalias j
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-eval $(docker-machine env default)
-
 KEYTIMEOUT=1
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/singuerinc/google-cloud-sdk/path.zsh.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/Users/singuerinc/google-cloud-sdk/completion.zsh.inc'
