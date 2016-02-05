@@ -2,6 +2,7 @@
 alias j="autojump"
 alias ports="sudo lsof -i -P"
 alias sub="subliminal download -l es"
+alias suben="subliminal download -l en"
 
 alias dm="docker-machine"
 alias dstart="docker start"
