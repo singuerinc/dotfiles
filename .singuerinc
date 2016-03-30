@@ -4,13 +4,7 @@ alias ports="sudo lsof -i -P"
 alias sub="subliminal download -l es"
 alias suben="subliminal download -l en"
 
-alias dm="docker-machine"
-alias dstart="docker start"
-alias dstop="docker stop"
-alias dexec="docker exec -t -i"
-alias drm="docker rm -f"
-alias drun="docker run --rm"
-
+alias d="docker"
 
 docker_environment(){
     docker-machine start $1

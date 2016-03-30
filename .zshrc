@@ -11,7 +11,7 @@ ZSH_THEME="pure"
 ZSH_THEME="dracula"
 ZSH_THEME="honukai"
 ZSH_THEME="gozilla"
-ZSH_THEME="mrtazz"
+#ZSH_THEME="mrtazz"
 
 # Example aliases
 alias zshconfig="st ~/.zshrc"
@@ -27,7 +27,7 @@ DISABLE_AUTO_TITLE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git zsh-syntax-highlighting history-substring-search docker atom forklift git-flow history httpie sudo)
+plugins=(git zsh-syntax-highlighting history-substring-search docker atom forklift git-flow history httpie sudo zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -50,8 +50,6 @@ unalias j
 
 KEYTIMEOUT=1
 
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/singuerinc/google-cloud-sdk/path.zsh.inc'
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# The next line enables shell command completion for gcloud.
-source '/Users/singuerinc/google-cloud-sdk/completion.zsh.inc'
+denv default
