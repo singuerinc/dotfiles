@@ -11,7 +11,8 @@ ZSH_THEME="pure"
 ZSH_THEME="dracula"
 ZSH_THEME="honukai"
 ZSH_THEME="gozilla"
-#ZSH_THEME="mrtazz"
+#ZSH_THEME="zeta"
+ZSH_THEME="mrtazz"
 
 # Example aliases
 alias zshconfig="st ~/.zshrc"
@@ -27,7 +28,7 @@ DISABLE_AUTO_TITLE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git zsh-syntax-highlighting history-substring-search docker atom forklift git-flow history httpie sudo zsh-autosuggestions)
+plugins=(git zsh-syntax-highlighting history-substring-search docker atom forklift git-flow history httpie sudo zsh-autosuggestions tmuxinator)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -52,4 +53,4 @@ KEYTIMEOUT=1
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-denv default
+export EDITOR=nvim
