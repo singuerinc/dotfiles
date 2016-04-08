@@ -5,6 +5,7 @@ alias sub="subliminal download -l es"
 alias suben="subliminal download -l en"
 
 alias d="docker"
+alias dps="docker ps"
 
 docker_environment(){
     docker-machine start $1
