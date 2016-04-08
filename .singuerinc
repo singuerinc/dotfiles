@@ -18,3 +18,4 @@ docker_machine_ip(){
 }
 
 alias dip=docker_machine_ip
+alias cls="clear"
