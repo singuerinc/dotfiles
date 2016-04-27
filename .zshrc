@@ -12,7 +12,7 @@ ZSH_THEME="dracula"
 ZSH_THEME="honukai"
 ZSH_THEME="gozilla"
 #ZSH_THEME="zeta"
-ZSH_THEME="mrtazz"
+#ZSH_THEME="mrtazz"
 
 # Example aliases
 alias zshconfig="atom ~/.zshrc"
@@ -54,3 +54,4 @@ KEYTIMEOUT=1
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export EDITOR=nvim
+export ANDROID_HOME=/usr/local/opt/android-sdk

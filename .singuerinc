@@ -24,3 +24,5 @@ alias cls="clear"
 cpath(){
     echo "$PWD/$@"|pbcopy;
 }
+
+alias rhc='docker run --rm -it --volumes-from rhc-data ecarre/rhc'
