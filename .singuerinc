@@ -20,5 +20,10 @@ docker_machine_ip(){
 
 alias dip=docker_machine_ip
 alias cls="clear"
+
+cpath(){
+    echo "$PWD/$@"|pbcopy;
+}
+
 alias rhc='docker run --rm -it --volumes-from rhc-data ecarre/rhc'
 alias cat="ccat"
