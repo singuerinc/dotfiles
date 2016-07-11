@@ -28,7 +28,7 @@ DISABLE_AUTO_TITLE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git zsh-syntax-highlighting history-substring-search docker atom forklift git-flow history httpie sudo zsh-autosuggestions tmuxinator brew-cask)
+plugins=(git zsh-syntax-highlighting history-substring-search docker atom forklift git-flow history httpie sudo zsh-autosuggestions tmuxinator brew-cask vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
