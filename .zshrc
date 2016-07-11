@@ -55,3 +55,9 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 export EDITOR=nvim
 export ANDROID_HOME=/usr/local/opt/android-sdk
+
+export HISTFILE=~/.zsh_history  # ensure history file visibility
+export HH_CONFIG=hicolor        # get more colors
+bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
+
+. /usr/local/Cellar/z/1.9/etc/profile.d/z.sh
