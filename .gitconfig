@@ -159,7 +159,7 @@
 [github]
 	token = b8fccb8155281beae741b6197541ed6e146ef053
 [user]
-	name = Nahuel Scotti
+	name = singuerinc
 	email = nahuel.scotti@gmail.com
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
