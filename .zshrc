@@ -61,3 +61,5 @@ export HH_CONFIG=hicolor        # get more colors
 bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
 
 . /usr/local/Cellar/z/1.9/etc/profile.d/z.sh
+
+source ~/.zshrc-local
