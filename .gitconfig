@@ -162,6 +162,7 @@
 [user]
 	name = singuerinc
 	email = nahuel.scotti@gmail.com
+	signingkey = C1333DE2
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -179,3 +180,6 @@
 [hub]
 	protocol = https
 	insteadOf = "gist:"
+[commit]
+	gpgsign = true
+	template = /Users/singuerinc/.stCommitMsg
