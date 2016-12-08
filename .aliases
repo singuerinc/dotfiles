@@ -150,3 +150,5 @@ alias rhc='docker run --rm -it --volumes-from rhc-data ecarre/rhc'
 alias docker-sto-pall="docker stop $(docker ps -a -q)"
 alias docker-remove-all="docker rm $(docker ps -a -q)"
 alias docker-remove-all-images="docker rmi $(docker images -q)"
+
+alias subtitles="subliminal download -l es -s -v"
