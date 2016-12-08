@@ -88,7 +88,6 @@
 	whitespace = fix
 
 [core]
-	excludesfile = /opt/boxen/config/git/gitignore
 	autocrlf = input
 
 [color]
@@ -162,19 +161,11 @@
 [user]
 	name = singuerinc
 	email = nahuel.scotti@gmail.com
-	signingkey = C1333DE2
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
-[mergetool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.2.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-
-[credential]
-	helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
-	excludesfile = /opt/boxen/config/git/gitignore
 	autocrlf = input
 
 [hub]
