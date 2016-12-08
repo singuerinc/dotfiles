@@ -171,6 +171,3 @@
 [hub]
 	protocol = https
 	insteadOf = "gist:"
-[commit]
-	gpgsign = true
-	template = /Users/singuerinc/.stCommitMsg
