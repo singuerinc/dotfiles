@@ -1,5 +1,6 @@
 brew "autojump"
 brew "git"
+brew "git-extras"
 brew "nodenv"
 brew "ccat"
 brew "htop"
