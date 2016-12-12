@@ -167,6 +167,7 @@
 
 [core]
 	autocrlf = input
+	excludesfile = ~/.gitignore
 
 [hub]
 	protocol = https
