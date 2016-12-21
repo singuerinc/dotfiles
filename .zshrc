@@ -21,6 +21,7 @@ plugins=(git zsh-syntax-highlighting history-substring-search docker history htt
 
 source $ZSH/oh-my-zsh.sh
 
+export PATH="$HOME/.nodenv/shims:$PATH"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
@@ -36,6 +37,8 @@ export EDITOR=vim
 export HISTFILE=~/.zsh_history  # ensure history file visibility
 export HH_CONFIG=hicolor        # get more colors
 bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
+
+export NODENV_ROOT=/usr/local/var/nodenv
 
 if [ -f ~/.zshrc-local ]; then
     source ~/.zshrc-local

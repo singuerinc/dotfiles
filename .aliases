@@ -152,3 +152,6 @@ alias docker-remove-all="docker rm $(docker ps -a -q)"
 alias docker-remove-all-images="docker rmi $(docker images -q)"
 
 alias subtitles="subliminal download -l es -s -v"
+alias vim="nvim -u $HOME/.vimrc"
+
+alias cat="ccat"

@@ -75,8 +75,8 @@ bind space:cmd,shift,up ${num0}
 bind home:cmd,shift,up ${home}
 bind end:cmd,shift,up ${end}
 
-bind pad+:cmd,shift,up sequence resize +50 +50 | ${move2center}
-bind pad-:cmd,shift,up sequence resize -50 -50 | ${move2center}
+bind =:cmd,shift,up sequence resize +50 +50 | ${move2center}
+bind -:cmd,shift,up sequence resize -50 -50 | ${move2center}
 
 bind f19:cmd,shift,up ${f19}
 bind f18:cmd,shift,up ${f18}
@@ -91,3 +91,4 @@ bind f10:cmd,shift,up ${f17}
 
 
 bind 1:ctrl grid padding:1 1920x1200:6,9 1680x1050:9,6
+bind n:cmd,shift,up throw next resize
