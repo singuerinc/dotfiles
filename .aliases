@@ -155,3 +155,6 @@ alias subtitles="subliminal download -l es -s -v"
 alias vim="nvim -u $HOME/.vimrc"
 
 alias cat="ccat"
+
+alias sub_es="subliminal download -l es -s -v"
+alias sub_en="subliminal download -l en -s -v"
