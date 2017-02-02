@@ -1,6 +1,6 @@
 {
   "hotkey": "cmd+space",
-  "theme": "singuerinc/zazu-clean-theme",
+  "theme": "singuerinc/zazu-clean-dark-theme",
   "plugins": [
     "tinytacoteam/zazu-calculator",
     "tinytacoteam/zazu-file-finder",
