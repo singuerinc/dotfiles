@@ -2,7 +2,6 @@
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 ZSH=$HOME/src/oh-my-zsh
 
-<<<<<<< HEAD
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -17,12 +16,6 @@ ZSH=$HOME/src/oh-my-zsh
 # Example aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
-=======
-#ZSH_THEME="pure"
-
-alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
->>>>>>> dc3c2a0cd100ea6fff592a13c3b821b16283c6ca
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
