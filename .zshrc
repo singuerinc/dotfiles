@@ -5,18 +5,16 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="clean"
-ZSH_THEME="garyblessington"
-ZSH_THEME="pure"
-ZSH_THEME="dracula"
-#ZSH_THEME="honukai"
+#ZSH_THEME="clean"
+#ZSH_THEME="garyblessington"
+#ZSH_THEME="pure"
+#ZSH_THEME="dracula"
 #ZSH_THEME="gozilla"
-#ZSH_THEME="zeta"
 #ZSH_THEME="mrtazz"
 
 # Example aliases
-alias zshconfig="atom ~/.zshrc"
-alias ohmyzsh="atom ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
@@ -28,7 +26,7 @@ DISABLE_AUTO_TITLE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git zsh-syntax-highlighting history-substring-search docker atom forklift git-flow history httpie sudo zsh-autosuggestions tmuxinator brew-cask vi-mode)
+plugins=(git zsh-syntax-highlighting history-substring-search docker atom forklift git-flow history httpie sudo zsh-autosuggestions tmuxinator brew-cask vi-mode docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -63,3 +61,6 @@ bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
 . /usr/local/Cellar/z/1.9/etc/profile.d/z.sh
 
 source ~/.zshrc-local
+
+autoload -U promptinit && promptinit
+prompt pure
