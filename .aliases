@@ -146,18 +146,13 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 alias rhc='docker run --rm -it --volumes-from rhc-data ecarre/rhc'
-<<<<<<< HEAD
-=======
 
-alias docker-sto-pall="docker stop $(docker ps -a -q)"
 alias docker-remove-all="docker rm $(docker ps -a -q)"
 alias docker-remove-all-images="docker rmi $(docker images -q)"
 
-alias subtitles="subliminal download -l es -s -v"
 alias vim="nvim -u $HOME/.vimrc"
 
 alias cat="ccat"
 
 alias sub_es="subliminal download -l es -s -v"
 alias sub_en="subliminal download -l en -s -v"
->>>>>>> dc3c2a0cd100ea6fff592a13c3b821b16283c6ca
