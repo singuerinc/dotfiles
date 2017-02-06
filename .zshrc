@@ -43,6 +43,8 @@ source ~/.functions
 
 KEYTIMEOUT=1
 
+alias vim="nvim -u $HOME/.vimrc"
+
 export EDITOR=vim
 export HISTFILE=~/.zsh_history  # ensure history file visibility
 export HH_CONFIG=hicolor        # get more colors
