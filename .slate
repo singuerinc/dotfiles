@@ -92,8 +92,8 @@ bind f10:cmd,shift,up ${f17}
 
 bind 1:ctrl grid padding:1 1920x1200:6,9 1680x1050:9,6
 
-bind f1:cmd,ctrl ${num5}
-bind f2:cmd,ctrl ${num0}
+bind f1:cmd,ctrl ${num0}
+bind f2:cmd,ctrl ${num5}
 bind f3:cmd,ctrl ${num8}
 bind f4:cmd,ctrl ${num2}
 bind f5:cmd,ctrl throw next resize

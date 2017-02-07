@@ -35,6 +35,8 @@ export PATH="$HOME/.nodenv/shims:$PATH"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
 # Customize to your needs...
 source ~/.aliases
 source ~/.functions
