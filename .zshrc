@@ -27,7 +27,7 @@ DISABLE_AUTO_TITLE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git zsh-syntax-highlighting history-substring-search docker history httpie sudo zsh-autosuggestions brew-cask vi-mode docker-compose)
+plugins=(git history-substring-search docker history httpie sudo zsh-autosuggestions brew-cask vi-mode docker-compose zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -60,3 +60,4 @@ fi
 
 autoload -U promptinit && promptinit
 prompt pure
+source /Users/nahuel.scotti/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
