@@ -60,4 +60,4 @@ fi
 
 autoload -U promptinit && promptinit
 prompt pure
-source /Users/nahuel.scotti/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
