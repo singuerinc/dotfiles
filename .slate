@@ -25,4 +25,6 @@ bind f3:cmd,ctrl ${num8}
 bind f4:cmd,ctrl ${num2}
 bind f5:cmd,ctrl throw next resize
 bind left:cmd,ctrl ${num4}
+bind a:cmd,ctrl ${num4}
 bind right:cmd,ctrl ${num6}
+bind d:cmd,ctrl ${num6}
