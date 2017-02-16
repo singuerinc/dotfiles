@@ -19,12 +19,16 @@ alias num8 corner top-left resize:screenSizeX;screenSizeY/2
 alias num9 corner top-right resize:screenSizeX/2;screenSizeY/2
 alias num0 move screenOriginX;screenOriginY screenSizeX;screenSizeY
 
-bind f1:cmd,ctrl ${num0}
-bind f2:cmd,ctrl ${num5}
-bind f3:cmd,ctrl ${num8}
-bind f4:cmd,ctrl ${num2}
-bind f5:cmd,ctrl throw next resize
-bind left:cmd,ctrl ${num4}
+bind space:cmd,ctrl ${num0}
+bind z:cmd,ctrl ${num1}
+bind x:cmd,ctrl ${num2}
+bind c:cmd,ctrl ${num3}
 bind a:cmd,ctrl ${num4}
-bind right:cmd,ctrl ${num6}
+bind s:cmd,ctrl ${num5}
 bind d:cmd,ctrl ${num6}
+bind q:cmd,ctrl ${num7}
+bind w:cmd,ctrl ${num8}
+bind e:cmd,ctrl ${num9}
+
+bind 1:cmd,ctrl throw 0;
+bind 2:cmd,ctrl throw 1;
