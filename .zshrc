@@ -60,6 +60,6 @@ fi
 
 autoload -U promptinit && promptinit
 prompt pure
-source /Users/nahuel.scotti/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH="$PATH:`yarn global bin`"
+source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
