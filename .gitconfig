@@ -180,3 +180,5 @@
 [hub]
 	protocol = https
 	insteadOf = "gist:"
+[gui]
+	recentrepo = /Users/singuerinc/code/property
