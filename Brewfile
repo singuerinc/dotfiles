@@ -10,6 +10,7 @@ brew "lynx"
 brew "mpv", args: ["with-bundle"]
 brew "ncdu"
 brew "peco"
+brew "pick"
 brew "ssh-copy-id"
 brew "subliminal"
 brew "the_silver_searcher"
