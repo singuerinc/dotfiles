@@ -1,6 +1,7 @@
 brew "aria2"
 brew "autojump"
 brew "ccat"
+brew "fzf"
 brew "git"
 brew "git-extras"
 brew "nodenv"
