@@ -1,5 +1,3 @@
-tap "neovim/neovim"
-
 brew "aria2"
 brew "autojump"
 brew "ccat"
@@ -10,17 +8,18 @@ brew "htop"
 brew "httpie"
 brew "lynx"
 brew "mpv", args: ["with-bundle"]
+brew "neovim"
 brew "peco"
 brew "ssh-copy-id"
 brew "subliminal"
 brew "the_silver_searcher"
 brew "tig"
+brew "tldr"
 brew "tree"
 brew "wget"
 brew "youtube-dl"
 
 tap 'caskroom/cask'
-tap 'caskroom/fonts'
 tap 'caskroom/versions'
 cask_args appdir: '/Applications'
 
@@ -28,7 +27,6 @@ cask "alfred"
 cask "android-file-transfer"
 cask "applepi-baker"
 cask "boom"
-cask "boostnote"
 cask "google-chrome-canary"
 cask "openemu-experimental"
 cask "chromium"
