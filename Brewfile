@@ -8,7 +8,7 @@ brew "htop"
 brew "httpie"
 brew "lynx"
 brew "mpv", args: ["with-bundle"]
-brew "neovim"
+brew "ncdu"
 brew "peco"
 brew "ssh-copy-id"
 brew "subliminal"
