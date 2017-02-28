@@ -1,8 +1,5 @@
 Bundle 'morhetz/gruvbox'
 
-UnBundle 'scrooloose/nerdtree'
-UnBundle 'tacahiroy/ctrlp-funky'
-
 UnBundle 'arcticicestudio/nord-vim'
 
 UnBundle 'tpope/vim-abolish.git'
@@ -13,8 +10,6 @@ UnBundle 'reedes/vim-litecorrect'
 UnBundle 'reedes/vim-wordy'
 
 UnBundle 'mbbill/undotree'
-
-UnBundle 'tpope/vim-fugitive'
 
 UnBundle 'kchmck/vim-coffee-script'
 UnBundle 'briancollins/vim-jst'
