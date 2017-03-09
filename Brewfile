@@ -26,8 +26,6 @@ tap 'caskroom/versions'
 cask_args appdir: '/Applications'
 
 cask "alfred"
-cask "android-file-transfer"
-cask "applepi-baker"
 cask "boom"
 cask "google-chrome-canary"
 cask "openemu-experimental"
