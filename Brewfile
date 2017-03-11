@@ -27,6 +27,8 @@ tap 'caskroom/versions'
 cask_args appdir: '/Applications'
 
 cask "alfred"
+cask "adobe-illustrator-cc"
+cask "adobe-photoshop-cc"
 cask "boom"
 cask "google-chrome-canary"
 cask "openemu-experimental"
