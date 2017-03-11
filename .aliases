@@ -154,6 +154,3 @@ alias tmux="TERM=xterm-256color tmux"
 
 alias sub_es="subliminal download -l es -s -v"
 alias sub_en="subliminal download -l en -s -v"
-
-alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
-alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'

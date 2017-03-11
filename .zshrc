@@ -63,6 +63,3 @@ export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="$HOME/.nodenv/versions/bin:$PATH"
 eval "$(nodenv init -)"
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
-alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
