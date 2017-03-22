@@ -153,6 +153,3 @@ alias docker-remove-all-images="docker rmi $(docker images -q)"
 
 alias sub_es="subliminal download -l es -s -v"
 alias sub_en="subliminal download -l en -s -v"
-
-alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
-alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'

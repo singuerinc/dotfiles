@@ -60,5 +60,6 @@ autoload -U promptinit && promptinit
 prompt pure
 
 export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH="$HOME/.nodenv/versions/7.2.1/bin:$PATH"
+export PATH="$HOME/.nodenv/versions/bin:$PATH"
+eval "$(nodenv init -)"
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
