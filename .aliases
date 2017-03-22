@@ -149,8 +149,7 @@ alias rhc='docker run --rm -it --volumes-from rhc-data ecarre/rhc'
 alias docker-remove-all="docker rm $(docker ps -a -q)"
 alias docker-remove-all-images="docker rmi $(docker images -q)"
 
-#alias vim="vim -u $HOME/.vimrc"
-alias tmux="TERM=xterm-256color tmux"
+#alias tmux="TERM=xterm-256color tmux"
 
 alias sub_es="subliminal download -l es -s -v"
 alias sub_en="subliminal download -l en -s -v"
