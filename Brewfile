@@ -25,6 +25,7 @@ brew "youtube-dl"
 
 tap 'caskroom/cask'
 tap 'caskroom/versions'
+tap 'caskroom/fonts'
 cask_args appdir: '/Applications'
 
 cask "alfred"
@@ -60,7 +61,13 @@ cask "spotify"
 cask "teamviewer"
 cask "tomighty"
 cask "torbrowser"
+cask "touchosc-bridge"
+cask "touchosc-editor"
 cask "transmission"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "webstorm-eap"
+
+cask "font-dejavusansmono-nerd-font-mono"
+cask "font-hack-nerd-font"
+cask "font-iosevka-nerd-font-mono"
