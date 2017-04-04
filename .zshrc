@@ -12,6 +12,7 @@ ZSH=$HOME/src/oh-my-zsh
 #ZSH_THEME="dracula"
 #ZSH_THEME="gozilla"
 #ZSH_THEME="mrtazz"
+ZSH_THEME="refined"
 
 # Example aliases
 alias zshconfig="code ~/.zshrc"
@@ -56,8 +57,8 @@ if [ -f ~/.zshrc-local ]; then
     source ~/.zshrc-local
 fi
 
-autoload -U promptinit && promptinit
-prompt pure
+#autoload -U promptinit && promptinit
+#prompt pure
 
 export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="$HOME/.nodenv/versions/bin:$PATH"
