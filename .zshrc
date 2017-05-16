@@ -8,11 +8,12 @@ ZSH=$HOME/src/oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="clean"
 #ZSH_THEME="garyblessington"
-#ZSH_THEME="pure"
 #ZSH_THEME="dracula"
 #ZSH_THEME="gozilla"
 #ZSH_THEME="mrtazz"
 ZSH_THEME="refined"
+#ZSH_THEME="mrtazz"
+#ZSH_THEME="random"
 
 # Example aliases
 alias zshconfig="code ~/.zshrc"
