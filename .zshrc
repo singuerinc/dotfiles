@@ -8,11 +8,12 @@ ZSH=$HOME/src/oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="clean"
 #ZSH_THEME="garyblessington"
-#ZSH_THEME="pure"
 #ZSH_THEME="dracula"
 #ZSH_THEME="gozilla"
 #ZSH_THEME="mrtazz"
 ZSH_THEME="refined"
+#ZSH_THEME="mrtazz"
+#ZSH_THEME="random"
 
 # Example aliases
 alias zshconfig="code ~/.zshrc"
@@ -28,7 +29,7 @@ DISABLE_AUTO_TITLE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git history-substring-search docker history httpie sudo zsh-autosuggestions brew-cask vi-mode docker-compose zsh-syntax-highlighting)
+plugins=(git history-substring-search docker history httpie sudo zsh-autosuggestions brew-cask vi-mode docker-compose zsh-syntax-highlighting osx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -64,6 +65,3 @@ export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="$HOME/.nodenv/versions/bin:$PATH"
 eval "$(nodenv init -)"
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-source ~/src/dotfiles/ssh-find-agent.sh
-set_ssh_agent_socket
