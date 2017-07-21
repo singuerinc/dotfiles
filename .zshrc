@@ -37,8 +37,6 @@ export PATH="$HOME/.nodenv/shims:$PATH"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
-
 # Customize to your needs...
 source ~/.aliases
 source ~/.functions
@@ -58,10 +56,5 @@ if [ -f ~/.zshrc-local ]; then
     source ~/.zshrc-local
 fi
 
-#autoload -U promptinit && promptinit
-#prompt pure
-
 export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH="$HOME/.nodenv/versions/bin:$PATH"
-eval "$(nodenv init -)"
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
