@@ -70,4 +70,5 @@ cask "webstorm"
 
 cask "font-dejavusansmono-nerd-font-mono"
 cask "font-hack-nerd-font"
+cask "font-fira-code"
 cask "font-iosevka-nerd-font-mono"
