@@ -9,6 +9,7 @@ brew "hh"
 brew "htop"
 brew "httpie"
 brew "lynx"
+brew "mas"
 brew "mpv", args: ["with-bundle"]
 brew "ncdu"
 brew "peco"
@@ -72,3 +73,5 @@ cask "font-dejavusansmono-nerd-font-mono"
 cask "font-hack-nerd-font"
 cask "font-fira-code"
 cask "font-iosevka-nerd-font-mono"
+
+mas 'Xcode', id: 497799835
