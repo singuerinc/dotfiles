@@ -21,6 +21,7 @@ alias num0 move screenOriginX;screenOriginY screenSizeX;screenSizeY
 alias num10 corner top-left resize:screenSizeX*0.6;screenSizeY
 alias num11 corner top-right resize:screenSizeX*0.4;screenSizeY
 alias num12 move (screenSizeX/2)-355;(screenSizeY/2)-355 710;710
+alias num13 move screenOriginX+25;screenOriginY+25 screenSizeX-50;screenSizeY-50
 
 bind space:cmd,ctrl ${num0}
 bind z:cmd,ctrl ${num1}
@@ -35,6 +36,7 @@ bind e:cmd,ctrl ${num9}
 bind l:cmd,ctrl ${num10}
 bind ':cmd,ctrl ${num11}
 bind ;:cmd,ctrl ${num12}
+bind 0:cmd,ctrl ${num13}
 
 bind 1:cmd,ctrl throw 0;
 bind 2:cmd,ctrl throw 1;
