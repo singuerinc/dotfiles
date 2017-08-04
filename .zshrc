@@ -60,3 +60,4 @@ export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
+eval "$(rbenv init -)"
