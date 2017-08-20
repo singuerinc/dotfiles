@@ -153,3 +153,5 @@ alias docker-remove-all-images="docker rmi $(docker images -q)"
 
 alias sub_es="subliminal download -l es -s -v"
 alias sub_en="subliminal download -l en -s -v"
+
+alias luke="git push --force-with-lease"

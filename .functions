@@ -249,5 +249,7 @@ function kat() {
     cat -n -t "$@" | ccat;
 }
 
-
-
+function gityo() {
+	git config --local user.name "singuerinc";
+    git config --local user.email "nahuel.scotti@gmail.com";
+}
