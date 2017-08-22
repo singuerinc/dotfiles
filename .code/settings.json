@@ -24,7 +24,10 @@
     },
     "editor.rulers": [80,120],
     "cSpell.userWords": [
+        "Bitbucket",
+        "Jira",
         "PIXI",
-        "Respin"
+        "Respin",
+        "datasets"
     ]
 }
