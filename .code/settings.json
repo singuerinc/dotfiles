@@ -16,10 +16,15 @@
             "node_modules/**"
         ]
     },
-    "workbench.colorTheme": "Darktooth",
+    "workbench.colorTheme": "Dracula",
     "workbench.colorCustomizations": {
         "statusBar.background" : "#333",
         "statusBar.noFolderBackground" : "#0A0A0D",
         "statusBar.debuggingBackground": "#511f1f"
-    }
+    },
+    "editor.rulers": [80,120],
+    "cSpell.userWords": [
+        "PIXI",
+        "Respin"
+    ]
 }
