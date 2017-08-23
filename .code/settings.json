@@ -2,10 +2,8 @@
 {
     "editor.fontFamily": "DejaVu Sans Mono for Powerline",
     "editor.fontSize": 15,
-    "workbench.welcome.enabled": false,
     "workbench.activityBar.visible": true,
-    "workbench.statusBar.visible": true,
-    "vsicons.presets.foldersAllDefaultIcon": true,
+    "workbench.statusBar.visible": false,
     "php.suggest.basic": false,
     "window.zoomLevel": 0,
     "editor.renderWhitespace": "all",
@@ -16,6 +14,7 @@
             "node_modules/**"
         ]
     },
+    "editor.minimap.enabled": false,
     "workbench.colorTheme": "Dracula",
     "workbench.colorCustomizations": {
         "statusBar.background" : "#333",
@@ -25,9 +24,12 @@
     "editor.rulers": [80,120],
     "cSpell.userWords": [
         "Bitbucket",
+        "Customizations",
         "Jira",
         "PIXI",
+        "Powerline",
         "Respin",
-        "datasets"
+        "datasets",
+        "minimap"
     ]
 }
