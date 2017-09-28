@@ -4,7 +4,6 @@ brew "ccat"
 brew "fzf"
 brew "git"
 brew "git-extras"
-brew "nodenv"
 brew "hh"
 brew "htop"
 brew "httpie"
@@ -63,5 +62,3 @@ cask "font-fantasquesansmono-nerd-font-mono"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "font-iosevka-nerd-font-mono"
-
-mas 'Xcode', id: 497799835
