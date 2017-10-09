@@ -1,6 +1,7 @@
 brew "aria2"
 brew "autojump"
 brew "ccat"
+brew "fd"
 brew "fzf"
 brew "git"
 brew "git-extras"
