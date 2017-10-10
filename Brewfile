@@ -8,6 +8,7 @@ brew "git-extras"
 brew "hh"
 brew "htop"
 brew "httpie"
+brew "jq"
 brew "lynx"
 brew "mas"
 brew "mpv", args: ["with-bundle"]
