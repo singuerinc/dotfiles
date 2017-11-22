@@ -14,6 +14,7 @@ ZSH=$HOME/src/oh-my-zsh
 ZSH_THEME="refined"
 #ZSH_THEME="mrtazz"
 #ZSH_THEME="random"
+#ZSH_THEME="dracula"
 
 # Example aliases
 alias zshconfig="code ~/.zshrc"
