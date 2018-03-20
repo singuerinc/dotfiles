@@ -2,25 +2,11 @@
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 ZSH=$HOME/src/oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-#ZSH_THEME="clean"
-#ZSH_THEME="garyblessington"
-#ZSH_THEME="dracula"
-#ZSH_THEME="gozilla"
-#ZSH_THEME="mrtazz"
 ZSH_THEME="refined"
-#ZSH_THEME="mrtazz"
-#ZSH_THEME="random"
-#ZSH_THEME="dracula"
 
-# Example aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 
-# Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
 
 # DISABLE_AUTO_UPDATE="true"
@@ -51,8 +37,6 @@ export HISTFILE=~/.zsh_history  # ensure history file visibility
 export HH_CONFIG=hicolor        # get more colors
 bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
 
-export NODENV_ROOT=/usr/local/var/nodenv
-
 if [ -f ~/.zshrc-local ]; then
     source ~/.zshrc-local
 fi
@@ -61,4 +45,3 @@ export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
-eval "$(rbenv init -)"
