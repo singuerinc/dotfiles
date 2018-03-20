@@ -20,11 +20,9 @@ plugins=(git history-substring-search docker history httpie sudo zsh-autosuggest
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="$HOME/.nodenv/shims:$PATH"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# Customize to your needs...
 source ~/.aliases
 source ~/.functions
 
@@ -41,7 +39,7 @@ if [ -f ~/.zshrc-local ]; then
     source ~/.zshrc-local
 fi
 
-export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
