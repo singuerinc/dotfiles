@@ -12,7 +12,8 @@ module.exports = {
     fontSize: 15,
 
     // font family with optional fallbacks
-    fontFamily: 'Hack, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily:
+      'Input Mono Narrow, Hack, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(248,28,229,0.8)',
@@ -115,10 +116,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    'hyper-snazzy',
-    'hyper-statusline'
-  ],
+  plugins: ['hyper-statusline'],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -128,5 +126,5 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
-  },
+  }
 };

@@ -43,5 +43,6 @@ fi
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export PATH="~/.npm-packages/bin:$PATH"
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
