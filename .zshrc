@@ -3,11 +3,11 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 ZSH=$HOME/src/oh-my-zsh
 
 ZSH_THEME="refined"
+#ZSH_THEME="spaceship"
 
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 
-# Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
 
 # DISABLE_AUTO_UPDATE="true"
