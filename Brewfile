@@ -1,7 +1,7 @@
 brew "aria2"
 brew "autojump"
 brew "ccat"
-brew "fd"
+#brew "fd"
 brew "fzf"
 brew "git"
 brew "git-extras"
@@ -10,7 +10,7 @@ brew "httpie"
 brew "jq"
 brew "lepton"
 brew "lynx"
-brew "mas"
+#brew "mas"
 brew "mpv", args: ["with-bundle"]
 brew "ncdu"
 brew "openttd"
@@ -36,7 +36,7 @@ cask "docker"
 cask "eqmac"
 cask "etcher"
 cask "firefox"
-cask "firefoxnightly"
+cask "firefox-nightly"
 cask "forklift"
 cask "google-chrome"
 cask "google-chrome-canary"
@@ -73,5 +73,5 @@ cask "font-input"
 cask "font-iosevka-nerd-font-mono"
 cask "font-monoid-nerd-font-mono"
 
-mas 'Xcode', id: 497799835
-mas 'Trello', id: 1278508951
+#mas 'Xcode', id: 497799835
+#mas 'Trello', id: 1278508951
