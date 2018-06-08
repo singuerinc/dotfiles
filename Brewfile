@@ -64,6 +64,7 @@ cask "torbrowser"
 cask "transmission"
 cask "virtualbox"
 cask "visual-studio-code"
+cask "visual-studio-code-insiders"
 
 cask "font-dejavusansmono-nerd-font-mono"
 cask "font-fantasquesansmono-nerd-font-mono"
