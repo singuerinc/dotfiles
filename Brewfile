@@ -1,5 +1,6 @@
 brew "aria2"
 brew "autojump"
+brew "bat"
 brew "ccat"
 #brew "fd"
 brew "fzf"
