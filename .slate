@@ -12,7 +12,7 @@ alias num1 corner top-left resize:screenSizeX*0.6;screenSizeY
 alias num2 move screenOriginX;screenOriginY+(screenSizeY/2) screenSizeX;screenSizeY/2
 alias num3 corner bottom-right resize:screenSizeX/2;screenSizeY/2
 alias num4 corner top-left resize:screenSizeX/2;screenSizeY
-alias num5 move screenOriginX+(screenSizeX/12);screenOriginY+75 (screenSizeX)-(screenSizeX/6);screenSizeY-150
+alias num5 move screenOriginX+(screenSizeX/20);screenOriginY+75 (screenSizeX)-(screenSizeX/10);screenSizeY-150
 alias num6 corner top-right resize:screenSizeX/2;screenSizeY
 alias num7 move screenOriginX+(screenSizeX/12);screenOriginY (screenSizeX)-(screenSizeX/6);screenSizeY
 alias num8 corner top-left resize:screenSizeX;screenSizeY/2
