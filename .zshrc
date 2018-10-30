@@ -17,7 +17,7 @@ DISABLE_AUTO_TITLE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git history sudo zsh-autosuggestions vi-mode zsh-syntax-highlighting osx history-substring-search)
+plugins=(git history sudo zsh-autosuggestions vi-mode zsh-syntax-highlighting osx history-substring-search z fzf-z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -47,3 +47,5 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
+
+export GPG_TTY=$(tty)

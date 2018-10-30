@@ -48,3 +48,5 @@ alias sub_en="subliminal download -l en -s -v"
 alias luke="git push --force-with-lease"
 
 alias reload="exec $SHELL -l"
+
+alias ci="code-insiders"
