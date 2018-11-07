@@ -1,0 +1,170 @@
+[
+	{
+		"installDate": 1537773532598,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "bitbucket",
+		"sections": [
+			{
+				"code": ".content-view .CodeMirror pre {\n    font-family: Input, Hack, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;\n    font-size: 14px;\n    line-height: 1.4em;\n}\n\n.branch-from-to > div.ref-name.ref-name-from > span {\n    font-size: 16px;\n    background-color: yellow;\n    color: black;\n}",
+				"urls": [],
+				"urlPrefixes": [
+					"https://git.netent.com"
+				],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 1
+	},
+	{
+		"installDate": 1537942684211,
+		"enabled": false,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "montserrat everywhere",
+		"sections": [
+			{
+				"code": "@import url('https://fonts.googleapis.com/css?family=PT+Sans');\n\nbody {\n    font-family: 'PT-Sans';\n}",
+				"urls": [],
+				"urlPrefixes": [
+					"http://playui.netent.io"
+				],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 2
+	},
+	{
+		"installDate": 1538491128522,
+		"enabled": false,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "github",
+		"sections": [
+			{
+				"code": ".blob-code-inner {\n    /*font-family: Input;*/\n    font-size: 15px;\n    line-height: 1.4rem;\n}",
+				"urls": [],
+				"urlPrefixes": [
+					"https://github.com/"
+				],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 3
+	},
+	{
+		"installDate": 1538724449212,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "jenkins",
+		"sections": [
+			{
+				"code": "pre {\n    font-family: Input;\n    font-size: 15px;\n}\n\nimg {\n    visibility: hidden;\n    display: none;\n}\n\n* {\n  border-radius: 0 !important;\n}",
+				"urls": [],
+				"urlPrefixes": [
+					"https://jenkins.netent.com/"
+				],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 4
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1539068235105,
+		"name": "jira",
+		"sections": [
+			{
+				"code": ".ghx-plan-extra-fields.ghx-plan-extra-fields-1.ghx-row {\n    display: none;\n}",
+				"urls": [],
+				"urlPrefixes": [
+					"https://jira.netent.com/"
+				],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 5
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1539072097772,
+		"name": "hipchat",
+		"sections": [
+			{
+				"code": "#hipchat {\n    max-width: 1280px;\n    margin: 0 auto;\n}",
+				"urls": [],
+				"urlPrefixes": [
+					"https://hipchat.netent.com/"
+				],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 6
+	},
+	{
+		"installDate": 1541505420299,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "trello",
+		"sections": [
+			{
+				"code": "@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600,700');\n\n#classic-body {\n    background: linear-gradient(22deg, #1CB5E0 0%, #000851 100%);\n}\n\nh1,\nh2,\nh3 {\n    font-weight: 700;\n}\n\nbody,\nbutton,\nhtml,\ninput,\nselect,\ntextarea {\n    font-family: \"IBM Plex Sans\";\n    font-weight: 400;\n}\n\n.header-logo-default {\n    visibility: hidden;\n}\n\n* {\n    border-radius: 0 !important;\n}",
+				"urls": [],
+				"urlPrefixes": [
+					"https://trello.com"
+				],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 7
+	},
+	{
+		"installDate": 1541505943438,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "hn",
+		"sections": [
+			{
+				"code": "@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600,700');\n\nh1,\nh2,\nh3 {\n    font-weight: 700;\n}\n\n*,\n.title {\n    font-family: \"IBM Plex Sans\";\n    font-weight: 400;\n    background-color: white;\n}\n\n.title {\n    font-size: 1rem;\n}\n\n.itemlist tbody tr {\n    padding: 1rem 0;\n}\n",
+				"urls": [],
+				"urlPrefixes": [
+					"https://news.ycombinator.com/"
+				],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 8
+	}
+]
