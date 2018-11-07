@@ -26,6 +26,7 @@ brew "tree"
 brew "wget"
 brew "yarn"
 brew "youtube-dl"
+brew "z"
 
 tap 'caskroom/cask'
 tap 'caskroom/versions'
