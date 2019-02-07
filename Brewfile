@@ -35,6 +35,7 @@ cask_args appdir: '/Applications'
 
 cask "alfred"
 cask "docker"
+cask "dozer"
 cask "eqmac"
 cask "etcher"
 cask "firefox"
