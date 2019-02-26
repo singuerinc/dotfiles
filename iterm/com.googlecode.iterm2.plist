@@ -1734,9 +1734,11 @@
 	<key>Default Bookmark Guid</key>
 	<string>D74E7E96-23AD-45F6-BF4E-C3F7852C710E</string>
 	<key>DimBackgroundWindows</key>
-	<true/>
+	<false/>
+	<key>DimInactiveSplitPanes</key>
+	<false/>
 	<key>DimOnlyText</key>
-	<true/>
+	<false/>
 	<key>DisableFullscreenTransparency</key>
 	<true/>
 	<key>EnableDivisionView</key>
@@ -1803,15 +1805,15 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1037 144 577 336 0 0 2560 1417 </string>
+	<string>919 -806 577 370 253 -900 1440 877 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>827 620 400 129 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2189 -312 796 486 1920 -683 1440 877 </string>
+	<string>737 879 796 486 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>128 79 2302 1263 0 0 2560 1417 </string>
+	<string>128 115 2300 1227 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2484,7 +2486,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>InputMonoCondensed-Italic 16</string>
+			<string>InputMonoCondensed-Italic 17</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -2652,7 +2654,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-02-06T08:10:22Z</date>
+	<date>2019-02-14T10:42:57Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -2665,6 +2667,8 @@
 	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.10000000000000001</real>
 	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>TabStyle</key>
