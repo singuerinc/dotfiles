@@ -1,0 +1,31 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{
+		"key": "cmd+up",
+		"command": "-cursorTop",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "cmd+down",
+		"command": "-cursorBottom",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+cmd+k",
+		"command": "-editsHistory.moveCursorToNextEditedFile"
+	},
+	{
+		"key": "shift+cmd+backspace",
+		"command": "workbench.action.navigateToLastEditLocation",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+enter",
+		"command": "extension.aceJump",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+enter",
+		"command": "findThenJump.initiate"
+	}
+]

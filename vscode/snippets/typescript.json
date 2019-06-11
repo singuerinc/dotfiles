@@ -1,0 +1,37 @@
+{
+	"Typescript test template": {
+		"prefix": "tst",
+		"body": [
+			"import { expect } from 'chai';",
+			"import * as sinon from 'sinon';",
+			"import { SinonSandbox } from 'sinon';",
+			"",
+			"let sandbox: SinonSandbox;",
+			"",
+			"describe('Component', () => {",
+			"  beforeEach(() => {",
+			"    sandbox = sinon.createSandbox();",
+			"  });",
+			"",
+			"  afterEach(() => {",
+			"    sandbox.restore();",
+			"  });",
+			"",
+			"  describe('something', () => {",
+			"    it('should do something', () => {",
+			"      expect([1]).to.have.length(1);",
+			"    });",
+			"  });",
+			"});"
+		],
+		"description": "Typescript test template"
+	},
+	"import Ramda": {
+		"prefix": "iramda",
+		"body": ["import * as R from \"ramda\";"]
+	},
+	"tslint disable next line": {
+		"prefix": "tslintdisablenextline",
+		"body": ["// tslint:disable-next-line"]
+	}
+}
