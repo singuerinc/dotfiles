@@ -20,7 +20,6 @@
 	"typescript.updateImportsOnFileMove.enabled": "never",
 	"search.quickOpen.includeSymbols": true,
 	"prettier.tslintIntegration": true,
-	"editor.suggest.localityBonus": true,
 	"editor.renderControlCharacters": true,
 	"workbench.activityBar.visible": true,
 	"git.enableSmartCommit": true,
@@ -120,5 +119,7 @@
 	},
 	"workbench.iconExploration.enabled": true,
 	"workbench.colorTheme": "Min Dark",
-	"workbench.iconTheme": "verdandi"
+	"workbench.iconTheme": "verdandi",
+	"editor.suggest.localityBonus": true,
+	"editor.suggest.showIcons": false
 }
