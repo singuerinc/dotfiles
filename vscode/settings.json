@@ -20,7 +20,6 @@
 	"typescript.updateImportsOnFileMove.enabled": "never",
 	"search.quickOpen.includeSymbols": true,
 	"prettier.tslintIntegration": true,
-	"workbench.iconTheme": "verdandi",
 	"editor.suggest.localityBonus": true,
 	"editor.renderControlCharacters": true,
 	"workbench.activityBar.visible": true,
@@ -120,5 +119,6 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"workbench.iconExploration.enabled": true,
-	"workbench.colorTheme": "Min Dark"
+	"workbench.colorTheme": "Min Dark",
+	"workbench.iconTheme": "verdandi"
 }
