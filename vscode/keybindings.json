@@ -11,21 +11,22 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "shift+cmd+k",
-		"command": "-editsHistory.moveCursorToNextEditedFile"
-	},
-	{
 		"key": "shift+cmd+backspace",
 		"command": "workbench.action.navigateToLastEditLocation",
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "shift+enter",
-		"command": "extension.aceJump",
+		"key": "alt+cmd+l",
+		"command": "-bookmarks.jumpToNext",
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "ctrl+enter",
-		"command": "findThenJump.initiate"
+		"key": "alt+cmd+j",
+		"command": "-bookmarks.jumpToPrevious",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+cmd+l",
+		"command": "bookmarks.listFromAllFiles"
 	}
 ]

@@ -1,7 +1,6 @@
 {
-
 	"editor.fontFamily": "Input",
-	"editor.fontSize": 15,
+	"editor.fontSize": 16,
 	"editor.renderWhitespace": "all",
 	"window.title": "${activeEditorShort}${separator}${activeEditorLong}",
 	"editor.rulers": [80],
@@ -13,113 +12,43 @@
 	"telemetry.enableTelemetry": false,
 	"editor.formatOnSave": true,
 	"npm.packageManager": "yarn",
-	"tslint.packageManager": "yarn",
 	"explorer.openEditors.visible": 0,
-	"workbench.statusBar.feedback.visible": false,
 	"terminal.integrated.cursorBlinking": true,
 	"typescript.updateImportsOnFileMove.enabled": "never",
 	"search.quickOpen.includeSymbols": true,
 	"prettier.tslintIntegration": true,
 	"editor.renderControlCharacters": true,
-	"workbench.activityBar.visible": true,
+	"workbench.activityBar.visible": false,
 	"git.enableSmartCommit": true,
 	"git.autofetch": true,
-	"sync.gist": "fdab640f0b31de40c7fd751712b5bbe0",
-	"sync.quietSync": false,
-	"sync.removeExtensions": true,
-	"sync.syncExtensions": true,
-	"sync.autoDownload": false,
-	"sync.autoUpload": false,
-	"sync.forceDownload": false,
 	"emmet.showExpandedAbbreviation": "never",
-	"vim.disableExtension": true,
-	"search.exclude": {
-		"**/build": true,
-		"**/dist": true,
-		"**/reports": true
-	},
 	"gitlens.codeLens.enabled": false,
-	"diffEditor.ignoreTrimWhitespace": false,
-	"vim.easymotion": true,
-	"vim.sneak": true,
-	"vim.showmodename": true,
-	"vim.incsearch": true,
-	"vim.useSystemClipboard": true,
-	"vim.useCtrlKeys": true,
-	"vim.hlsearch": true,
-	"vim.insertModeKeyBindings": [
-		{
-			"before": ["j", "j"],
-			"after": ["<Esc>"]
-		}
-	],
-	"vim.normalModeKeyBindingsNonRecursive": [
-		{
-			"before": ["<leader>", "d"],
-			"after": ["d", "d"]
-		},
-		{
-			"before": ["<C-n>"],
-			"commands": [":nohl"]
-		}
-	],
-	"vim.handleKeys": {
-		"<C-a>": false,
-		"<C-f>": false
-	},
-	"vim.easymotionMarkerFontFamily": "Hack",
-	"vim.easymotionMarkerHeight": 18,
-	"vim.easymotionMarkerBackgroundColor": "rgba(0, 0, 0, 0.6)",
-	"vim.easymotionMarkerForegroundColorOneChar": "#ff5500",
-	"vim.easymotionMarkerWidthPerChar": 9,
-	"vim.leader": "<space>",
-	"vim.normalModeKeyBindingsNonRecursive": [
-		{
-			"before": ["<leader>", "m"],
-			"commands": ["bookmarks.toggle"]
-		},
-		{
-			"before": ["<leader>", "b"],
-			"commands": ["bookmarks.list"]
-		}
-	],
-	"vim.history": 10,
-	"vim.easymotionMarkerYOffset": 10,
-	"vim.easymotionMarkerFontWeight": "bold",
-	"vim.easymotionMarkerForegroundColorTwoChar": "#ffff00",
+	"diffEditor.ignoreTrimWhitespace": true,
 	"window.zoomLevel": 0,
-	"workbench.statusBar.visible": true,
-	"city-lights-icons-vsc.hidesExplorerArrows": false,
-	"colorize.include": [
-		"**/*.js",
-		"**/*.css",
-		"**/*.jsx",
-		"**/*.tsx",
-		"**/*.ts"
-	],
-	"colorize.enable_search_variables": false,
+	"workbench.statusBar.visible": false,
 	"breadcrumbs.enabled": false,
 	"editor.minimap.enabled": false,
-	"amVim.smartRelativeLineNumbers": true,
 	"workbench.sideBar.location": "left",
 	"workbench.list.keyboardNavigation": "filter",
 	"workbench.useExperimentalGridLayout": true,
-	"aceJump.placeholder.fontFamily": "Input",
-	"aceJump.placeholder.height": 15,
-	"aceJump.placeholder.fontSize": 15,
-	"aceJump.placeholder.backgroundColor": "cyan",
-	"aceJump.placeholder.fontWeight": "bold",
 	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"bracket-pair-colorizer-2.colorMode": "Independent",
-	"bracket-pair-colorizer-2.highlightActiveScope": true,
-	"bracket-pair-colorizer-2.showHorizontalScopeLine": false,
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"workbench.iconExploration.enabled": true,
-	"workbench.colorTheme": "Min Dark",
-	"workbench.iconTheme": "verdandi",
+	"workbench.iconTheme": "vs-minimal",
 	"editor.suggest.localityBonus": true,
-	"editor.suggest.showIcons": false
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.colorTheme": "A Touch of Crayon Easter Egg Edition",
+	"workbench.colorCustomizations": {
+		"editorRuler.foreground": "#00ff7f"
+	},
+	"emmet.includeLanguages": {
+		"postcss": "css"
+	},
+	"emmet.syntaxProfiles": {
+		"postcss": "css"
+	},
+	"workbench.fontAliasing": "auto"
 }
