@@ -1,6 +1,6 @@
 {
 	"editor.fontFamily": "Input",
-	"editor.fontSize": 16,
+	"editor.fontSize": 15,
 	"editor.renderWhitespace": "all",
 	"window.title": "${activeEditorShort}${separator}${activeEditorLong}",
 	"editor.rulers": [80],
@@ -18,7 +18,7 @@
 	"search.quickOpen.includeSymbols": true,
 	"prettier.tslintIntegration": true,
 	"editor.renderControlCharacters": true,
-	"workbench.activityBar.visible": false,
+	"workbench.activityBar.visible": true,
 	"git.enableSmartCommit": true,
 	"git.autofetch": true,
 	"emmet.showExpandedAbbreviation": "never",
@@ -40,7 +40,7 @@
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"workbench.colorTheme": "A Touch of Crayon Easter Egg Edition",
+	"workbench.colorTheme": "Pushkin is Black Theme [beta]",
 	"workbench.colorCustomizations": {
 		"editorRuler.foreground": "#00ff7f"
 	},
@@ -50,5 +50,6 @@
 	"emmet.syntaxProfiles": {
 		"postcss": "css"
 	},
-	"workbench.fontAliasing": "auto"
+	"workbench.fontAliasing": "auto",
+	"explorer.decorations.badges": false
 }

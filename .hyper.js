@@ -9,7 +9,7 @@ module.exports = {
 		updateChannel: "canary",
 
 		// default font size in pixels for all tabs
-		fontSize: 17,
+		fontSize: 19,
 
 		// font family with optional fallbacks
 		fontFamily:
@@ -147,7 +147,7 @@ module.exports = {
 	//   `hyperpower`
 	//   `@company/project`
 	//   `project#1.0.1`
-	plugins: ["hypercwd", "hyper-mono-christmas"],
+	plugins: ["hypercwd", "hyper-mono-christmas", "hyper-statusline"],
 
 	// in development, you can create a directory under
 	// `~/.hyper_plugins/local/` and include it here
