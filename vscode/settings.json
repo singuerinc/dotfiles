@@ -25,7 +25,7 @@
 	"gitlens.codeLens.enabled": false,
 	"diffEditor.ignoreTrimWhitespace": true,
 	"window.zoomLevel": 0,
-	"workbench.statusBar.visible": false,
+	"workbench.statusBar.visible": true,
 	"breadcrumbs.enabled": false,
 	"editor.minimap.enabled": false,
 	"workbench.sideBar.location": "left",
