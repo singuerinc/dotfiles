@@ -1,6 +1,6 @@
 {
   "editor.fontFamily": "Input",
-  "editor.fontSize": 15,
+  "editor.fontSize": 17,
   "editor.renderWhitespace": "all",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [
@@ -12,7 +12,7 @@
   "editor.minimap.renderCharacters": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "npm.packageManager": "yarn",
   "explorer.openEditors.visible": 0,
   "terminal.integrated.cursorBlinking": true,
@@ -42,7 +42,7 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "White Night",
+  "workbench.colorTheme": "City Lights",
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#5500ff77"
   },
