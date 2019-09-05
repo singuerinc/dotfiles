@@ -1,11 +1,9 @@
 {
   "editor.fontFamily": "Input",
-  "editor.fontSize": 17,
+  "editor.fontSize": 15,
   "editor.renderWhitespace": "all",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80, 90, 100],
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 15,
   "editor.matchBrackets": true,
@@ -18,18 +16,16 @@
   "terminal.integrated.cursorBlinking": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "search.quickOpen.includeSymbols": true,
-  "prettier.tslintIntegration": true,
   "editor.renderControlCharacters": true,
   "workbench.activityBar.visible": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-  "emmet.showExpandedAbbreviation": "never",
   "gitlens.codeLens.enabled": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "window.zoomLevel": 0,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "workbench.sideBar.location": "left",
   "workbench.list.keyboardNavigation": "filter",
   "workbench.useExperimentalGridLayout": true,
@@ -43,9 +39,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.colorTheme": "City Lights",
-  "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#5500ff77"
-  },
   "emmet.includeLanguages": {
     "postcss": "css"
   },
