@@ -1,16 +1,16 @@
 {
   "editor.fontFamily": "Input",
-  "editor.fontSize": 15,
-  "editor.renderWhitespace": "all",
+  "editor.fontSize": 16,
+  "editor.renderWhitespace": "boundary",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
-  "editor.rulers": [80, 90, 100],
+  "editor.rulers": [],
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 15,
   "editor.matchBrackets": true,
   "editor.minimap.renderCharacters": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "npm.packageManager": "yarn",
   "explorer.openEditors.visible": 0,
   "terminal.integrated.cursorBlinking": true,
@@ -23,8 +23,8 @@
   "gitlens.codeLens.enabled": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "window.zoomLevel": 0,
-  "workbench.statusBar.visible": false,
-  "breadcrumbs.enabled": false,
+  "workbench.statusBar.visible": true,
+  "breadcrumbs.enabled": true,
   "editor.minimap.enabled": true,
   "workbench.sideBar.location": "left",
   "workbench.list.keyboardNavigation": "filter",
@@ -33,7 +33,6 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.iconTheme": "vs-minimal",
   "editor.suggest.localityBonus": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -53,7 +52,7 @@
     "#b197fc",
     "#f06595"
   ],
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.leader": "\\",
@@ -61,5 +60,13 @@
   "vim.easymotionMarkerWidthPerChar": 10,
   "vim.easymotionMarkerHeight": 20,
   "vim.easymotionMarkerFontFamily": "Input",
-  "vim.easymotionMarkerFontSize": "12px"
+  "vim.easymotionMarkerFontSize": "12px",
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "dimmer.context": 6,
+  "dimmer.opacity": 10,
+  "workbench.iconTheme": "vscode-seedling-icon-theme"
 }
