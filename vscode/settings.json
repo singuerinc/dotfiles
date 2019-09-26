@@ -24,8 +24,8 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "window.zoomLevel": 0,
   "workbench.statusBar.visible": true,
-  "breadcrumbs.enabled": true,
-  "editor.minimap.enabled": true,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
   "workbench.sideBar.location": "left",
   "workbench.list.keyboardNavigation": "filter",
   "workbench.useExperimentalGridLayout": true,
@@ -37,14 +37,13 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "City Lights",
+  "workbench.colorTheme": "Kya",
   "emmet.includeLanguages": {
     "postcss": "css"
   },
   "emmet.syntaxProfiles": {
     "postcss": "css"
   },
-  "workbench.fontAliasing": "auto",
   "explorer.decorations.badges": false,
   "bracket-pair-colorizer-2.colors": [
     "#63e6be",
@@ -68,5 +67,6 @@
   "gitlens.views.search.location": "gitlens",
   "dimmer.context": 6,
   "dimmer.opacity": 10,
-  "workbench.iconTheme": "vscode-seedling-icon-theme"
+  "workbench.iconTheme": null,
+  "workbench.fontAliasing": "antialiased"
 }
