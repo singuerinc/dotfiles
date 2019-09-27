@@ -3,9 +3,7 @@
   "editor.fontSize": 17,
   "editor.renderWhitespace": "boundary",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [],
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 15,
   "editor.matchBrackets": true,
@@ -17,7 +15,6 @@
   "terminal.integrated.cursorBlinking": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "search.quickOpen.includeSymbols": true,
-  "prettier.tslintIntegration": true,
   "editor.renderControlCharacters": true,
   "workbench.activityBar.visible": false,
   "git.enableSmartCommit": true,
@@ -34,22 +31,17 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.iconTheme": "vs-minimal",
   "editor.suggest.localityBonus": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "City Lights",
-  "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#5500ff77"
-  },
+  "workbench.colorTheme": "Kya",
   "emmet.includeLanguages": {
     "postcss": "css"
   },
   "emmet.syntaxProfiles": {
     "postcss": "css"
   },
-  "workbench.fontAliasing": "auto",
   "explorer.decorations.badges": false,
   "bracket-pair-colorizer-2.colors": [
     "#63e6be",
@@ -57,7 +49,7 @@
     "#b197fc",
     "#f06595"
   ],
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.leader": "\\",
@@ -74,5 +66,14 @@
   "editor.formatOnSave": true,
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
-  "gitlens.codeLens.enabled": false
+  "gitlens.codeLens.enabled": false,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "dimmer.context": 6,
+  "dimmer.opacity": 10,
+  "workbench.iconTheme": null,
+  "workbench.fontAliasing": "antialiased"
 }
