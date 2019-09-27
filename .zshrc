@@ -17,7 +17,7 @@ DISABLE_AUTO_TITLE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git history sudo zsh-autosuggestions vi-mode zsh-syntax-highlighting osx history-substring-search z fzf-z)
+plugins=(git history sudo zsh-autosuggestions vi-mode zsh-syntax-highlighting osx history-substring-search z fzf-z yarn)
 
 source $ZSH/oh-my-zsh.sh
 
