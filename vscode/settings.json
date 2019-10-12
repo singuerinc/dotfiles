@@ -1,7 +1,9 @@
 {
-  "editor.fontFamily": "Input",
-  "editor.fontSize": 16,
+  "editor.fontFamily": "SFMono-Regular, Input",
   "editor.renderWhitespace": "boundary",
+  "editor.fontWeight": "500",
+  "terminal.integrated.fontWeight": "500",
+  "editor.lineHeight": 21,
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [],
   "files.trimTrailingWhitespace": true,
@@ -21,14 +23,14 @@
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "gitlens.codeLens.enabled": false,
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 0,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "workbench.sideBar.location": "left",
+  "editor.colorDecorators": true,
   "workbench.list.keyboardNavigation": "filter",
-  "workbench.useExperimentalGridLayout": true,
   "editor.suggestSelection": "first",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -37,7 +39,7 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Kya",
+  "workbench.colorTheme": "City Lights",
   "emmet.includeLanguages": {
     "postcss": "css"
   },
@@ -51,6 +53,10 @@
     "#b197fc",
     "#f06595"
   ],
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#111",
+    "tab.activeForeground": "#fff"
+  },
   "workbench.editor.showTabs": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -67,6 +73,10 @@
   "gitlens.views.search.location": "gitlens",
   "dimmer.context": 6,
   "dimmer.opacity": 10,
-  "workbench.iconTheme": null,
-  "workbench.fontAliasing": "antialiased"
+  "workbench.iconTheme": "origamid-next-icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.fontAliasing": "antialiased",
+  "editor.fontSize": 16
 }

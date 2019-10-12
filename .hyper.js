@@ -9,11 +9,11 @@ module.exports = {
     updateChannel: "canary",
 
     // default font size in pixels for all tabs
-    fontSize: 21,
+    fontSize: 18,
 
     // font family with optional fallbacks
     fontFamily:
-      'Fira Code, Input, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      'SFMono-Regular, Consolas, "Liberation Mono", Menlo, Hack, Input, Fira Code, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
@@ -28,7 +28,7 @@ module.exports = {
     letterSpacing: 0,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: "rgba(248,28,229,0.8)",
+    cursorColor: "rgba(0,255,229,0.8)",
 
     // terminal text color under BLOCK cursor
     cursorAccentColor: "#000",
@@ -47,10 +47,10 @@ module.exports = {
     backgroundColor: "#000",
 
     // terminal selection color
-    selectionColor: "rgba(248,28,229,0.3)",
+    selectionColor: "rgba(0,255,229,0.3)",
 
     // border color (window, tabs)
-    borderColor: "#333",
+    borderColor: "rgba(0,255,229,1)",
 
     // custom CSS to embed in the main window
     css: "",
@@ -147,7 +147,11 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hypercwd", "hyper-mono-christmas", "hyper-statusline"],
+  plugins: [
+    "hypercwd",
+    "hyper-mono-christmas"
+    // "hyper-statusline"
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
