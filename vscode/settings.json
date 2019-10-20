@@ -7,7 +7,7 @@
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [],
   "files.trimTrailingWhitespace": true,
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 16,
   "editor.matchBrackets": true,
   "editor.minimap.renderCharacters": false,
   "telemetry.enableCrashReporter": false,
@@ -55,7 +55,7 @@
     "tab.activeBackground": "#111",
     "tab.activeForeground": "#fff"
   },
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": false,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.leader": "\\",
@@ -85,5 +85,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.fontAliasing": "antialiased",
-  "editor.fontSize": 16
+  "editor.fontSize": 18
 }

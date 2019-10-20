@@ -16,17 +16,10 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "alt+cmd+l",
-		"command": "-bookmarks.jumpToNext",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "alt+cmd+j",
-		"command": "-bookmarks.jumpToPrevious",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "alt+cmd+l",
-		"command": "bookmarks.listFromAllFiles"
-	}
+    "key": "cmd+shift+h",
+    "command": "workbench.action.terminal.newWithCwd",
+    "args": {
+      "cwd": "${fileDirname}"
+    }
+  }
 ]
