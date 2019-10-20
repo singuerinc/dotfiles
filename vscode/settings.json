@@ -85,5 +85,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.fontAliasing": "antialiased",
-  "editor.fontSize": 18
+  "editor.fontSize": 18,
+  "terminal.integrated.fontFamily": "Input"
 }
