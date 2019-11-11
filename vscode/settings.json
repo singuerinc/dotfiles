@@ -9,7 +9,6 @@
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 16,
   "editor.matchBrackets": true,
-  "editor.minimap.renderCharacters": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "npm.packageManager": "yarn",
@@ -18,12 +17,12 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "search.quickOpen.includeSymbols": true,
   "editor.renderControlCharacters": true,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 0,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": true,
   "workbench.sideBar.location": "left",
@@ -37,7 +36,7 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "City Lights",
+  "workbench.colorTheme": "Moonlight Italic",
   "emmet.includeLanguages": {
     "postcss": "css"
   },
@@ -86,5 +85,6 @@
   },
   "workbench.fontAliasing": "antialiased",
   "editor.fontSize": 18,
-  "terminal.integrated.fontFamily": "Input"
+  "terminal.integrated.fontFamily": "Input",
+  "editor.minimap.renderCharacters": false
 }
