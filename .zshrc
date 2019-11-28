@@ -3,7 +3,10 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 ZSH=$HOME/src/oh-my-zsh
 
 #ZSH_THEME="refined"
-ZSH_THEME="spaceship"
+#ZSH_THEME="spaceship"
+ZSH_THEME=""
+autoload -U promptinit; promptinit
+prompt pure;
 
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
