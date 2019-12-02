@@ -253,3 +253,7 @@ function gityo() {
 	git config --local user.name "singuerinc";
     git config --local user.email "nahuel.scotti@gmail.com";
 }
+
+function notes() {
+    code ~/src/notes
+}

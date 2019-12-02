@@ -90,5 +90,6 @@
   "git.untrackedChanges": "separate",
   "editor.fontSize": 15,
   "editor.formatOnSave": true,
-  "workbench.colorTheme": "Tokyo Night"
+  "workbench.colorTheme": "Tokyo Night",
+  "explorer.confirmDelete": false
 }
