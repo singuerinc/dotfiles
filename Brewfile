@@ -11,7 +11,7 @@ brew "wget"
 brew "yarn"
 brew "z"
 
-tap 'caskroom/cask'
+tap 'homebrew/cask-cask'
 tap 'caskroom/versions'
 tap 'caskroom/fonts'
 cask_args appdir: '/Applications'
