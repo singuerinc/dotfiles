@@ -88,8 +88,8 @@
   "workbench.fontAliasing": "antialiased",
   "terminal.integrated.fontFamily": "Input",
   "git.untrackedChanges": "separate",
-  "editor.fontSize": 15,
-  "editor.formatOnSave": true,
+  "editor.fontSize": 18,
   "workbench.colorTheme": "Tokyo Night",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true
 }
