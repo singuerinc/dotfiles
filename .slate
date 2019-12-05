@@ -23,7 +23,7 @@ alias num11 corner top-right resize:screenSizeX*0.4;screenSizeY
 alias num12 move (screenSizeX/2)-355;(screenSizeY/2)-355 710;710
 alias num13 move screenOriginX+25;screenOriginY+25 screenSizeX-50;screenSizeY-50
 alias num14 move (screenSizeX/2)-775;(screenSizeY/2)-480 1550;960
-alias num15 move (screenSizeX/2)-850;(screenSizeY/2)-600 1700;1200
+alias num15 move (screenSizeX/2)-850;(screenSizeY/2)-650 1700;1300
 
 bind space:cmd,ctrl ${num0}
 bind z:cmd,ctrl ${num1}
