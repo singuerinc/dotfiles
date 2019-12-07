@@ -57,7 +57,7 @@
       "window.inactiveBorder":"#222"
     }
   },
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.leader": "\\",
