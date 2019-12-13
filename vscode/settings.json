@@ -92,5 +92,16 @@
   "workbench.colorTheme": "Tokyo Night",
   "explorer.confirmDelete": false,
   "editor.formatOnSave": true,
-  "editor.minimap.renderCharacters": false
+  "editor.minimap.renderCharacters": false,
+  "cSpell.userWords": [
+    "Autoplay",
+    "FWSUPPORT",
+    "PRODBUG",
+    "aniket",
+    "garima",
+    "netent",
+    "vova"
+  ],
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.tabCompletion": "on"
 }
