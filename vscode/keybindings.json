@@ -21,5 +21,13 @@
     "args": {
       "cwd": "${fileDirname}"
     }
-  }
+},
+{
+	"key": "ctrl+shift+backspace",
+	"command": "workbench.action.terminal.toggleTerminal"
+},
+{
+	"key": "ctrl+`",
+	"command": "-workbench.action.terminal.toggleTerminal"
+}
 ]

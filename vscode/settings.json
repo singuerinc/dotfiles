@@ -1,14 +1,14 @@
 {
-  "editor.fontFamily": "Input, SFMono-Regular",
+  "editor.fontFamily": "Input,SFMono-Regular",
   "editor.renderWhitespace": "selection",
   "editor.fontWeight": "500",
   "terminal.integrated.fontWeight": "500",
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 24,
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [],
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 18,
-  "editor.matchBrackets": true,
+  "editor.matchBrackets": "always",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "npm.packageManager": "yarn",
@@ -85,11 +85,11 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.fontAliasing": "antialiased",
-  "terminal.integrated.fontFamily": "SFMono-Regular, Input",
+  "workbench.fontAliasing": "auto",
+  "terminal.integrated.fontFamily": "Input,SFMono-Regular",
   "git.untrackedChanges": "separate",
   "editor.fontSize": 18,
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Material Theme Darker",
   "explorer.confirmDelete": false,
   "editor.formatOnSave": true,
   "editor.minimap.renderCharacters": false,
@@ -98,6 +98,7 @@
     "FWSUPPORT",
     "PRODBUG",
     "aniket",
+    "clienthost",
     "garima",
     "netent",
     "vova"
@@ -107,5 +108,8 @@
   "problems.showCurrentInStatus": true,
   "terminal.integrated.rendererType": "experimentalWebgl",
   "search.enableSearchEditorPreview": true,
-  "terminal.external.osxExec": "Hyper.app"
+  "terminal.external.osxExec": "Hyper.app",
+  "gitlens.blame.avatars": false,
+  "editor.parameterHints.cycle": true,
+  "editor.renderLineHighlight": "all"
 }
