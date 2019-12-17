@@ -4,6 +4,17 @@
 
 module.exports = {
   config: {
+      paneNavigation: {
+        showIndicators: false,
+          hotkeys: {
+              navigation: {
+                  up: "cmd+alt+up",
+                  down: "cmd+alt+down",
+                  left: "cmd+alt+left",
+                  right: "cmd+alt+right",
+              }
+          }
+      },
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
     updateChannel: "canary",
@@ -149,7 +160,8 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hypercwd",
-    "hyper-mono-christmas"
+    "hyper-mono-christmas",
+    "hyper-pane"
     // "hyper-statusline"
   ],
 

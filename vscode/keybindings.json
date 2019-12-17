@@ -11,7 +11,7 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "shift+cmd+backspace",
+		"key": "cmd+shift+backspace",
 		"command": "workbench.action.navigateToLastEditLocation",
 		"when": "editorTextFocus"
 	},
@@ -23,7 +23,7 @@
     }
 },
 {
-	"key": "ctrl+shift+backspace",
+	"key": "cmd+escape",
 	"command": "workbench.action.terminal.toggleTerminal"
 },
 {
