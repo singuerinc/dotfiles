@@ -3,7 +3,6 @@
   "editor.renderWhitespace": "selection",
   "editor.fontWeight": "500",
   "terminal.integrated.fontWeight": "500",
-  "editor.lineHeight": 24,
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [],
   "files.trimTrailingWhitespace": true,
@@ -52,9 +51,10 @@
   "workbench.colorCustomizations": {
     "tab.activeBackground": "#111",
     "tab.activeForeground": "#fff",
-    "[Tokyo Night]": { // or "[Tokyo Night Storm]"
+    "[Tokyo Night]": {
+      // or "[Tokyo Night Storm]"
       "window.activeBorder": "#00ffff",
-      "window.inactiveBorder":"#222"
+      "window.inactiveBorder": "#222"
     }
   },
   "workbench.editor.showTabs": true,
@@ -76,7 +76,6 @@
   "gitlens.codeLens.enabled": false,
   "gitlens.views.repositories.location": "gitlens",
   "gitlens.views.fileHistory.location": "gitlens",
-  "gitlens.views.lineHistory.location": "gitlens",
   "gitlens.views.compare.location": "gitlens",
   "gitlens.views.search.location": "gitlens",
   "dimmer.context": 6,
@@ -111,5 +110,5 @@
   "terminal.external.osxExec": "Hyper.app",
   "gitlens.blame.avatars": false,
   "editor.parameterHints.cycle": true,
-  "editor.renderLineHighlight": "all"
+  "editor.renderIndentGuides": false
 }
