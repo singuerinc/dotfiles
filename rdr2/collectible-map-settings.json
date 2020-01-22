@@ -7,15 +7,14 @@
     "enable-dclick-zoom": "1",
     "marker-opacity": "1",
     "overlay-opacity": "0.5",
-    "menu-opened": "1",
     "enable-marker-popups": "0",
     "coords-enabled": "0",
     "inventory-enabled": "0",
-    "date": "2020-1-21",
     "language": "en-us",
     "_gid": "GA1.3.1992731879.1579642633",
-    "map-layer": "Detailed",
     "show-help": "0",
+    "date": "2020-1-22",
+    "menu-opened": "1",
     "disabled-categories": "treasure_hunter,tree_map,egg_encounter,wounded_animal,fame_seeker",
-    "removed-items-0": "arrowhead_splintered:1:0;pentacles_eight:1:0;pentacles_queen:1:0;wands_ace:1:0;wands_two:1:0;wands_three:1:0;wands_four:1:0;wands_five:1:0;wands_six:1:0;wands_seven:1:0;wands_eight:1:0;wands_nine:1:0;wands_ten:1:0;wands_page:1:0;wands_knight:1:0;wands_queen:1:0;wands_king:1:0;"
+    "map-layer": "Detailed"
 }
