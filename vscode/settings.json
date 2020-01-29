@@ -21,7 +21,7 @@
   "git.autofetch": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 0,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": true,
   "workbench.sideBar.location": "left",
@@ -53,7 +53,6 @@
     "tab.activeForeground": "#fff",
     "[Tokyo Night]": {
       // or "[Tokyo Night Storm]"
-      "window.activeBorder": "#00ffff",
       "window.inactiveBorder": "#222"
     }
   },
@@ -96,10 +95,15 @@
     "Autoplay",
     "FWSUPPORT",
     "PRODBUG",
+    "SITEURL",
+    "Valentina",
+    "WORDPRESS",
     "aniket",
     "clienthost",
+    "customizer",
     "garima",
     "netent",
+    "placemat",
     "vova"
   ],
   "workbench.editor.highlightModifiedTabs": true,
