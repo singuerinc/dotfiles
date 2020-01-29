@@ -95,6 +95,7 @@
     "Autoplay",
     "FWSUPPORT",
     "PRODBUG",
+    "Quickspin",
     "SITEURL",
     "Valentina",
     "WORDPRESS",
@@ -104,6 +105,7 @@
     "garima",
     "netent",
     "placemat",
+    "playui",
     "vova"
   ],
   "workbench.editor.highlightModifiedTabs": true,
