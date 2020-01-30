@@ -1,0 +1,20 @@
+{
+    "inventory-popups-enabled": "1",
+    "inventory-menu-update-enabled": "1",
+    "reset-updates-inventory-enabled": "0",
+    "remove-markers-daily": "1",
+    "marker-cluster": "1",
+    "enable-dclick-zoom": "1",
+    "marker-opacity": "1",
+    "overlay-opacity": "0.5",
+    "enable-marker-popups": "0",
+    "coords-enabled": "0",
+    "inventory-enabled": "0",
+    "language": "en-us",
+    "_gid": "GA1.3.1992731879.1579642633",
+    "show-help": "0",
+    "date": "2020-1-22",
+    "menu-opened": "1",
+    "disabled-categories": "treasure_hunter,tree_map,egg_encounter,wounded_animal,fame_seeker",
+    "map-layer": "Detailed"
+}
