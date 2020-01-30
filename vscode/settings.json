@@ -28,6 +28,7 @@
   "editor.colorDecorators": true,
   "workbench.list.keyboardNavigation": "filter",
   "editor.suggestSelection": "first",
+  "editor.fontLigatures": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -53,7 +54,6 @@
     "tab.activeForeground": "#fff",
     "[Tokyo Night]": {
       // or "[Tokyo Night Storm]"
-      "window.activeBorder": "#00ffff",
       "window.inactiveBorder": "#222"
     }
   },
@@ -88,18 +88,23 @@
   "terminal.integrated.fontFamily": "Input,SFMono-Regular",
   "git.untrackedChanges": "separate",
   "editor.fontSize": 17,
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "City Lights",
   "explorer.confirmDelete": false,
   "editor.formatOnSave": true,
   "editor.minimap.renderCharacters": false,
   "cSpell.userWords": [
     "Autoplay",
     "FWSUPPORT",
+    "PAYTABLE",
     "PRODBUG",
+    "QUICKSPIN",
+    "SPACEBAR",
+    "TOPBAR",
     "aniket",
     "clienthost",
     "garima",
     "netent",
+    "playui",
     "vova"
   ],
   "workbench.editor.highlightModifiedTabs": true,
