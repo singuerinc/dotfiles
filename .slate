@@ -26,15 +26,15 @@ alias num14 move (screenSizeX/2)-775;(screenSizeY/2)-480 1550;960
 alias num15 move (screenSizeX/2)-850;(screenSizeY/2)-650 1700;1300
 
 bind space:cmd,ctrl ${num0}
-bind z:cmd,ctrl ${num1}
+#bind z:cmd,ctrl ${num1}
 bind x:cmd,ctrl ${num2}
-bind c:cmd,ctrl ${num3}
+#bind c:cmd,ctrl ${num3}
 bind a:cmd,ctrl ${num4}
 bind s:cmd,ctrl ${num5}
 bind d:cmd,ctrl ${num6}
-bind q:cmd,ctrl ${num7}
+#bind q:cmd,ctrl ${num7}
 bind w:cmd,ctrl ${num8}
-bind e:cmd,ctrl ${num9}
+#bind e:cmd,ctrl ${num9}
 bind l:cmd,ctrl ${num10}
 bind ':cmd,ctrl ${num11}
 bind ;:cmd,ctrl ${num12}

@@ -4,17 +4,17 @@
 
 module.exports = {
   config: {
-      paneNavigation: {
-        showIndicators: false,
-          hotkeys: {
-              navigation: {
-                  up: "cmd+alt+up",
-                  down: "cmd+alt+down",
-                  left: "cmd+alt+left",
-                  right: "cmd+alt+right",
-              }
-          }
-      },
+    paneNavigation: {
+      showIndicators: false,
+      hotkeys: {
+        navigation: {
+          up: "cmd+alt+up",
+          down: "cmd+alt+down",
+          left: "cmd+alt+left",
+          right: "cmd+alt+right"
+        }
+      }
+    },
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
     updateChannel: "canary",
@@ -61,7 +61,7 @@ module.exports = {
     selectionColor: "rgba(0,255,229,0.3)",
 
     // border color (window, tabs)
-    borderColor: "rgba(0,255,229,1)",
+    borderColor: "rgba(255,255,255,0.3)",
 
     // custom CSS to embed in the main window
     css: "",
