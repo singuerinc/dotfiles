@@ -88,7 +88,7 @@
   "terminal.integrated.fontFamily": "Input,SFMono-Regular",
   "git.untrackedChanges": "separate",
   "editor.fontSize": 17,
-  "workbench.colorTheme": "City Lights",
+  "workbench.colorTheme": "Tokyo Night",
   "explorer.confirmDelete": false,
   "editor.formatOnSave": true,
   "editor.minimap.renderCharacters": false,
