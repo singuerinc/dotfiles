@@ -21,9 +21,9 @@
   "git.autofetch": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 0,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "workbench.sideBar.location": "left",
   "editor.colorDecorators": true,
   "workbench.list.keyboardNavigation": "filter",
@@ -87,8 +87,8 @@
   "workbench.fontAliasing": "auto",
   "terminal.integrated.fontFamily": "Input,SFMono-Regular",
   "git.untrackedChanges": "separate",
-  "editor.fontSize": 17,
-  "workbench.colorTheme": "Tokyo Night",
+  "editor.fontSize": 16,
+  "workbench.colorTheme": "City Lights",
   "explorer.confirmDelete": false,
   "editor.formatOnSave": true,
   "editor.minimap.renderCharacters": false,
@@ -121,5 +121,7 @@
   "terminal.external.osxExec": "Hyper.app",
   "gitlens.blame.avatars": false,
   "editor.parameterHints.cycle": true,
-  "editor.renderIndentGuides": false
+  "editor.renderIndentGuides": false,
+  "debug.console.fontSize": 15,
+  "debug.console.fontFamily": "Input"
 }
