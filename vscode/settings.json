@@ -1,8 +1,6 @@
 {
-  "editor.fontFamily": "JetBrains Mono,Input,SFMono-Regular",
+  "editor.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "editor.renderWhitespace": "selection",
-  "editor.fontWeight": "normal",
-  "terminal.integrated.fontWeight": "500",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [],
   "files.trimTrailingWhitespace": true,
@@ -16,7 +14,6 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "search.quickOpen.includeSymbols": true,
   "editor.renderControlCharacters": true,
-  "workbench.activityBar.visible": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -49,14 +46,6 @@
     "#b197fc",
     "#f06595"
   ],
-  "workbench.colorCustomizations": {
-    "tab.activeBackground": "#111",
-    "tab.activeForeground": "#fff",
-    "[Tokyo Night]": {
-      // or "[Tokyo Night Storm]"
-      "window.inactiveBorder": "#222"
-    }
-  },
   "workbench.editor.showTabs": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -67,9 +56,6 @@
   "vim.easymotionMarkerFontFamily": "Input",
   "vim.easymotionMarkerFontSize": "12px",
   "editor.autoClosingQuotes": "always",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
@@ -80,48 +66,53 @@
   "gitlens.views.search.location": "gitlens",
   "dimmer.context": 6,
   "dimmer.opacity": 10,
-  "workbench.iconTheme": "origamid-next-icons",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "workbench.fontAliasing": "auto",
-  "terminal.integrated.fontFamily": "Input,SFMono-Regular",
+  "terminal.integrated.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "git.untrackedChanges": "separate",
   "editor.fontSize": 16,
-  "workbench.colorTheme": "City Lights",
   "explorer.confirmDelete": false,
   "editor.formatOnSave": true,
   "editor.minimap.renderCharacters": false,
   "cSpell.userWords": [
     "Autoplay",
+    "DEVTOOLS",
     "FWSUPPORT",
     "PAYTABLE",
     "PRODBUG",
     "QUICKSPIN",
-    "SPACEBAR",
-    "TOPBAR",
     "Quickspin",
     "SITEURL",
+    "SPACEBAR",
+    "TOPBAR",
     "Valentina",
     "WORDPRESS",
     "aniket",
     "clienthost",
     "customizer",
     "garima",
+    "immer",
+    "jira",
     "netent",
     "placemat",
     "playui",
-    "vova"
+    "uuidv",
+    "vova",
+    "xstate"
   ],
   "workbench.editor.highlightModifiedTabs": true,
   "editor.tabCompletion": "on",
   "problems.showCurrentInStatus": true,
-  "terminal.integrated.rendererType": "experimentalWebgl",
   "search.enableSearchEditorPreview": true,
   "terminal.external.osxExec": "Hyper.app",
   "gitlens.blame.avatars": false,
   "editor.parameterHints.cycle": true,
   "editor.renderIndentGuides": false,
   "debug.console.fontSize": 15,
-  "debug.console.fontFamily": "Input"
+  "debug.console.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
+  "files.associations": {
+    "Brewfile": "ruby",
+    "*.alfredappearance": "json"
+  },
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "origamid-next-icons"
 }
