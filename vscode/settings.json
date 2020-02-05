@@ -69,9 +69,8 @@
   "workbench.fontAliasing": "auto",
   "terminal.integrated.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "git.untrackedChanges": "separate",
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "explorer.confirmDelete": false,
-  "editor.formatOnSave": true,
   "editor.minimap.renderCharacters": false,
   "cSpell.userWords": [
     "Autoplay",
@@ -113,6 +112,11 @@
     "Brewfile": "ruby",
     "*.alfredappearance": "json"
   },
-  "workbench.colorTheme": "Tokyo Night",
-  "workbench.iconTheme": "origamid-next-icons"
+  "workbench.colorTheme": "City Lights",
+  "workbench.iconTheme": "origamid-next-icons",
+  "workbench.activityBar.visible": false,
+  "files.watcherExclude": {
+    "**/dist": true
+  },
+  "editor.formatOnSave": true
 }
