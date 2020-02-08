@@ -2,7 +2,7 @@
   "editor.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "editor.renderWhitespace": "selection",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
-  "editor.rulers": [],
+  "editor.rulers": [80,100],
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 18,
   "editor.matchBrackets": "always",
@@ -18,7 +18,7 @@
   "git.autofetch": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 0,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "workbench.sideBar.location": "left",
@@ -94,6 +94,7 @@
     "netent",
     "placemat",
     "playui",
+    "singuerinc",
     "uuidv",
     "vova",
     "xstate"
@@ -112,11 +113,16 @@
     "Brewfile": "ruby",
     "*.alfredappearance": "json"
   },
-  "workbench.colorTheme": "City Lights",
-  "workbench.iconTheme": "origamid-next-icons",
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "files.watcherExclude": {
     "**/dist": true
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "origamid-next-icons",
+  "workbench.editor.limit.value": 3,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Default Light+",
+  "search.smartCase": true,
+  "editor.semanticHighlighting.enabled": true
 }
