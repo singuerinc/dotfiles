@@ -22,7 +22,7 @@ COMPLETION_WAITING_DOTS="true"
 
 VSCODE=code
 
-plugins=(git history sudo zsh-autosuggestions vi-mode zsh-syntax-highlighting osx history-substring-search z fzf vscode)
+plugins=(yarn git history sudo zsh-autosuggestions vi-mode zsh-syntax-highlighting osx history-substring-search z fzf vscode)
 
 source $ZSH/oh-my-zsh.sh
 
