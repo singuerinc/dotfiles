@@ -69,7 +69,7 @@
   "workbench.fontAliasing": "auto",
   "terminal.integrated.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "git.untrackedChanges": "separate",
-  "editor.fontSize": 17,
+  "editor.fontSize": 15,
   "explorer.confirmDelete": false,
   "editor.minimap.renderCharacters": false,
   "cSpell.userWords": [
@@ -122,7 +122,8 @@
   "workbench.editor.limit.value": 3,
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Tokyo Night",
-  "workbench.colorTheme": "Default Light+",
   "search.smartCase": true,
-  "editor.semanticHighlighting.enabled": true
+  "editor.semanticHighlighting.enabled": true,
+  "workbench.preferredLightColorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Tokyo Night"
 }
