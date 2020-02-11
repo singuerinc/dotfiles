@@ -18,7 +18,7 @@
   "git.autofetch": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 0,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "workbench.sideBar.location": "left",
@@ -46,7 +46,7 @@
     "#b197fc",
     "#f06595"
   ],
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": false,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.leader": "\\",
@@ -125,5 +125,8 @@
   "search.smartCase": true,
   "editor.semanticHighlighting.enabled": true,
   "workbench.preferredLightColorTheme": "Tokyo Night",
-  "workbench.colorTheme": "Tokyo Night"
+  "workbench.colorTheme": "Monochrome Dark",
+  "workbench.colorCustomizations": {
+    "terminal.ansiBrightBlack": "#333",
+  }
 }
