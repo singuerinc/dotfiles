@@ -129,5 +129,5 @@
     "terminal.ansiBrightBlack": "#333",
     "editorRuler.foreground": "#222"
   },
-  "workbench.colorTheme": "Tokyo Night"
+  "workbench.colorTheme": "Gruvbox Material Dark"
 }
