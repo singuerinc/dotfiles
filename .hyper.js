@@ -24,7 +24,7 @@ module.exports = {
 
     // font family with optional fallbacks
     fontFamily:
-      'SFMono-Regular, Consolas, "Liberation Mono", Menlo, Hack, Input, Fira Code, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      '"JetBrains Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Hack, Input, Fira Code, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
