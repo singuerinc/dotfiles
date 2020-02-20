@@ -53,7 +53,7 @@
     "opacity: 0.5",
     "backgroundColor : {color}"
   ],
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.leader": "\\",
@@ -125,7 +125,6 @@
     "**/dist": true
   },
   "editor.formatOnSave": true,
-  "workbench.iconTheme": "origamid-next-icons",
   "workbench.editor.limit.value": 3,
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Tokyo Night",
@@ -134,7 +133,18 @@
   "workbench.preferredLightColorTheme": "Tokyo Night",
   "workbench.colorCustomizations": {
     "terminal.ansiBrightBlack": "#333",
-    "editorRuler.foreground": "#222"
+    "editorRuler.foreground": "#222",
+    "tab.activeBackground": "#000000",
+    "tab.activeForeground": "#6741d9",
+    "editor.foreground": "#6741d9",
+    "sideBar.foreground": "#343a40"
   },
-  "workbench.colorTheme": "Tokyo Night"
+  "workbench.colorTheme": "White Night",
+  "editor.tokenColorCustomizations": {
+    "strings": "#adb5bd",
+    "functions": "#868e96",
+    "types": "#868e96",
+    "keywords": "#342070",
+  },
+  "workbench.iconTheme": "origamid-next-icons"
 }
