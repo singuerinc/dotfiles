@@ -12,8 +12,8 @@ brew "yarn"
 brew "z"
 
 tap 'homebrew/cask-cask'
-tap 'caskroom/versions'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/cask-fonts'
 cask_args appdir: '/Applications'
 
 cask "alfred"
@@ -45,3 +45,4 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "font-input"
 cask "font-monoid-nerd-font-mono"
+cask "font-jetbrains-mono"
