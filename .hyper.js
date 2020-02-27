@@ -17,7 +17,7 @@ module.exports = {
     },
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
-    updateChannel: "canary",
+    updateChannel: "stable",
 
     // default font size in pixels for all tabs
     fontSize: 20,
