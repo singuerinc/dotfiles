@@ -131,20 +131,20 @@
   "search.smartCase": true,
   "editor.semanticHighlighting.enabled": true,
   "workbench.preferredLightColorTheme": "Tokyo Night",
-  "workbench.colorCustomizations": {
-    "terminal.ansiBrightBlack": "#333",
-    "editorRuler.foreground": "#222",
-    "tab.activeBackground": "#000000",
-    "tab.activeForeground": "#6741d9",
-    "editor.foreground": "#6741d9",
-    "sideBar.foreground": "#343a40"
-  },
-  "workbench.colorTheme": "White Night",
-  "editor.tokenColorCustomizations": {
-    "strings": "#adb5bd",
-    "functions": "#868e96",
-    "types": "#868e96",
-    "keywords": "#342070",
-  },
+  // "workbench.colorCustomizations": {
+  //   "terminal.ansiBrightBlack": "#333",
+  //   "editorRuler.foreground": "#222",
+  //   "tab.activeBackground": "#000000",
+  //   "tab.activeForeground": "#6741d9",
+  //   "editor.foreground": "#6741d9",
+  //   "sideBar.foreground": "#343a40"
+  // },
+  "workbench.colorTheme": "Tokyo Night",
+  // "editor.tokenColorCustomizations": {
+  //   "strings": "#adb5bd",
+  //   "functions": "#868e96",
+  //   "types": "#868e96",
+  //   "keywords": "#342070",
+  // },
   "workbench.iconTheme": "origamid-next-icons"
 }
