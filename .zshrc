@@ -12,8 +12,8 @@ ZSH=$HOME/src/oh-my-zsh
 #ZSH_THEME="refined"
 #ZSH_THEME="spaceship"
 ZSH_THEME=""
-autoload -U promptinit; promptinit
-prompt pure;
+#autoload -U promptinit; promptinit
+#prompt pure;
 
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
@@ -42,7 +42,7 @@ export LANG=en_US.UTF-8
 source ~/.aliases
 source ~/.functions
 
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+#[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 KEYTIMEOUT=1
 
