@@ -125,7 +125,6 @@
     "**/dist": true
   },
   "editor.formatOnSave": true,
-  "workbench.editor.limit.value": 3,
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Tokyo Night",
   "search.smartCase": true,
@@ -146,5 +145,7 @@
   //   "types": "#868e96",
   //   "keywords": "#342070",
   // },
-  "workbench.iconTheme": "origamid-next-icons"
+  "workbench.iconTheme": "origamid-next-icons",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 3
 }

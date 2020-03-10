@@ -11,7 +11,7 @@ brew "wget"
 brew "yarn"
 brew "z"
 
-tap 'homebrew/cask-cask'
+#tap 'homebrew/cask-cask'
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-fonts'
 cask_args appdir: '/Applications'
@@ -19,7 +19,7 @@ cask_args appdir: '/Applications'
 cask "alfred"
 cask "docker"
 cask "dozer"
-cask "eqmac"
+#cask "eqmac"
 cask "firefox"
 cask "firefox-developer-edition"
 cask "forklift"
@@ -28,14 +28,15 @@ cask "hocus-focus"
 cask "hyper"
 cask "iina"
 cask "ip-in-menu-bar"
+cask "itsycal"
 cask "keka"
-cask "minecraft"
+#cask "minecraft"
 cask "notable"
 cask "openemu-experimental"
 cask "openttd"
 cask "rectangle"
 cask "slack"
-cask "sketch"
+#cask "sketch"
 cask "spaceradar"
 cask "spotify"
 cask "transmission"
