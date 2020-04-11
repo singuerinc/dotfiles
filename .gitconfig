@@ -84,6 +84,8 @@
 
     count = "!f() { compareBranch=${1-master}; git rev-list --count HEAD ^$compareBranch;  }; f"
 
+    identity = "!f() { git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; }; f"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
@@ -180,6 +182,10 @@
 	protocol = https
 	insteadOf = "gist:"
 [user]
+	useConfigOnly = true
+[user "netent"]
+	name = Nahuel Scotti
+	email = nahuel.scotti@netent.com
+[user "singuerinc"]
 	name = singuerinc
 	email = nahuel.scotti@gmail.com
-	signingkey = 7688B500BF543FEA

@@ -16,18 +16,8 @@
 		"when": "editorTextFocus"
 	},
 	{
-    "key": "cmd+shift+h",
-    "command": "workbench.action.terminal.newWithCwd",
-    "args": {
-      "cwd": "${fileDirname}"
-    }
-},
-{
-	"key": "cmd+escape",
-	"command": "workbench.action.terminal.toggleTerminal"
-},
-{
-	"key": "ctrl+`",
-	"command": "-workbench.action.terminal.toggleTerminal"
-}
+		"key": "cmd+shift+space",
+		"command": "xrayJump.activate",
+		"when": "editorTextFocus"
+	}
 ]

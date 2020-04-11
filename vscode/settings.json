@@ -2,7 +2,18 @@
   "editor.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "editor.renderWhitespace": "selection",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
-  "editor.rulers": [80,100],
+  "editor.rulers": [{
+    "column": 80,
+    "color": "#00FF0011"
+  },
+  {
+    "column": 100,
+    "color": "#FF990011"
+  },
+  {
+      "column": 120,
+      "color": "#FF000011"
+  }],
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 18,
   "editor.matchBrackets": "always",
@@ -21,7 +32,7 @@
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
-  "workbench.sideBar.location": "left",
+  "workbench.sideBar.location": "right",
   "editor.colorDecorators": true,
   "workbench.list.keyboardNavigation": "filter",
   "editor.suggestSelection": "first",
@@ -40,12 +51,12 @@
     "postcss": "css"
   },
   "explorer.decorations.badges": false,
-  "bracket-pair-colorizer-2.colors": [
-    "#63e6be",
-    "#8ce99a",
-    "#b197fc",
-    "#f06595"
-  ],
+  // "bracket-pair-colorizer-2.colors": [
+  //   "#63e6be",
+  //   "#8ce99a",
+  //   "#b197fc",
+  //   "#f06595"
+  // ],
   "bracket-pair-colorizer-2.activeScopeCSS": [
     "borderStyle : solid",
     "borderWidth : 1px",
@@ -76,7 +87,7 @@
   "workbench.fontAliasing": "auto",
   "terminal.integrated.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "git.untrackedChanges": "separate",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "explorer.confirmDelete": false,
   "editor.minimap.renderCharacters": false,
   "cSpell.userWords": [
@@ -124,21 +135,21 @@
   "files.watcherExclude": {
     "**/dist": true
   },
-  "editor.formatOnSave": true,
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Tokyo Night",
   "search.smartCase": true,
   "editor.semanticHighlighting.enabled": true,
-  "workbench.preferredLightColorTheme": "Tokyo Night",
-  // "workbench.colorCustomizations": {
+  "workbench.preferredLightColorTheme": "Tokyo Night Light",
+  "workbench.colorCustomizations": {
+  "statusBar.background": "#000000"
+    // "editor.background": "#131313"
   //   "terminal.ansiBrightBlack": "#333",
   //   "editorRuler.foreground": "#222",
   //   "tab.activeBackground": "#000000",
   //   "tab.activeForeground": "#6741d9",
   //   "editor.foreground": "#6741d9",
   //   "sideBar.foreground": "#343a40"
-  // },
-  "workbench.colorTheme": "Tokyo Night",
+  },
   // "editor.tokenColorCustomizations": {
   //   "strings": "#adb5bd",
   //   "functions": "#868e96",
@@ -147,5 +158,12 @@
   // },
   "workbench.iconTheme": "origamid-next-icons",
   "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 3
+  "workbench.editor.limit.value": 3,
+  "diffEditor.renderSideBySide": false,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "editor.formatOnSave": true,
+  "prettier.trailingComma": "none",
+  "prettier.semi": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": false
 }
