@@ -156,7 +156,7 @@
   //   "types": "#868e96",
   //   "keywords": "#342070",
   // },
-  "workbench.iconTheme": "origamid-next-icons",
+  "workbench.iconTheme": "Rosé Pine Icons",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 3,
   "diffEditor.renderSideBySide": false,
@@ -165,5 +165,6 @@
   "prettier.trailingComma": "none",
   "prettier.semi": true,
   "prettier.arrowParens": "avoid",
-  "prettier.singleQuote": false
+  "prettier.singleQuote": false,
+  "workbench.colorTheme": "Rosé Pine"
 }
