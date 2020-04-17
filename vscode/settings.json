@@ -141,14 +141,6 @@
   "editor.semanticHighlighting.enabled": true,
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
   "workbench.colorCustomizations": {
-  "statusBar.background": "#000000"
-    // "editor.background": "#131313"
-  //   "terminal.ansiBrightBlack": "#333",
-  //   "editorRuler.foreground": "#222",
-  //   "tab.activeBackground": "#000000",
-  //   "tab.activeForeground": "#6741d9",
-  //   "editor.foreground": "#6741d9",
-  //   "sideBar.foreground": "#343a40"
   },
   // "editor.tokenColorCustomizations": {
   //   "strings": "#adb5bd",
@@ -166,5 +158,8 @@
   "prettier.semi": true,
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": false,
-  "workbench.colorTheme": "Rosé Pine"
+  "workbench.colorTheme": "Rosé Pine",
+  "files.exclude": {
+    "**/dist": true
+  }
 }
