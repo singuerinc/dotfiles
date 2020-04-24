@@ -8,10 +8,10 @@ module.exports = {
       showIndicators: false,
       hotkeys: {
         navigation: {
-          up: "cmd+alt+up",
-          down: "cmd+alt+down",
-          left: "cmd+alt+left",
-          right: "cmd+alt+right",
+          up: "cmd+ctr+alt+up",
+          down: "cmd+ctrl+alt+down",
+          left: "cmd+ctr+alt+left",
+          right: "cmd+ctrl+alt+right",
         },
       },
     },
@@ -161,9 +161,10 @@ module.exports = {
   plugins: [
     "hypercwd",
     // "hyper-mono-christmas",
-    "hyper-pane",
+    // "hyper-pane",
     "hyper-rose-pine",
-    // "hyper-statusline"
+    "hyper-statusline",
+    "hyperterm-dibdabs",
   ],
 
   // in development, you can create a directory under

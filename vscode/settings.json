@@ -1,5 +1,6 @@
 {
   "editor.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
+  "editor.fontSize": 16,
   "editor.renderWhitespace": "selection",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [{
@@ -31,7 +32,7 @@
   "window.zoomLevel": 0,
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "workbench.sideBar.location": "right",
   "editor.colorDecorators": true,
   "workbench.list.keyboardNavigation": "filter",
@@ -67,12 +68,17 @@
   "workbench.editor.showTabs": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
-  "vim.leader": "\\",
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
   "vim.easymotionMarkerBackgroundColor": "#00FF55cc",
   "vim.easymotionMarkerWidthPerChar": 10,
   "vim.easymotionMarkerHeight": 20,
-  "vim.easymotionMarkerFontFamily": "Input",
+  "vim.easymotionMarkerFontFamily": "JetBrains Mono",
   "vim.easymotionMarkerFontSize": "12px",
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": "#212529",
   "editor.autoClosingQuotes": "always",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "emmet.showSuggestionsAsSnippets": true,
@@ -87,15 +93,16 @@
   "workbench.fontAliasing": "auto",
   "terminal.integrated.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "git.untrackedChanges": "separate",
-  "editor.fontSize": 16,
   "explorer.confirmDelete": false,
   "editor.minimap.renderCharacters": false,
   "cSpell.userWords": [
     "Autoplay",
     "DEVTOOLS",
+    "ECAS",
     "FWSUPPORT",
     "PAYTABLE",
     "PRODBUG",
+    "Pierogi",
     "QUICKSPIN",
     "Quickspin",
     "SITEURL",
@@ -104,6 +111,7 @@
     "Valentina",
     "WORDPRESS",
     "aniket",
+    "animejs",
     "clienthost",
     "customizer",
     "garima",
@@ -141,6 +149,9 @@
   "editor.semanticHighlighting.enabled": true,
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
   "workbench.colorCustomizations": {
+    "statusBar.background": "#212529",
+    "statusBar.noFolderBackground": "#212529",
+    "statusBar.debuggingBackground": "#212529"
   },
   // "editor.tokenColorCustomizations": {
   //   "strings": "#adb5bd",
@@ -151,7 +162,7 @@
   "workbench.iconTheme": "Rosé Pine Icons",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 3,
-  "diffEditor.renderSideBySide": false,
+  "diffEditor.renderSideBySide": true,
   "bracket-pair-colorizer-2.highlightActiveScope": true,
   "editor.formatOnSave": true,
   "prettier.trailingComma": "none",
@@ -159,7 +170,7 @@
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": false,
   "workbench.colorTheme": "Rosé Pine",
-  "files.exclude": {
-    "**/dist": true
-  }
+  "editor.minimap.side": "left",
+  "gitlens.views.repositories.files.layout": "list",
+  "amVim.smartRelativeLineNumbers": true
 }
