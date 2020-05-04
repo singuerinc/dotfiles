@@ -1,6 +1,6 @@
 {
-  "editor.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
-  "editor.fontSize": 16,
+  "editor.fontFamily": "Hack, JetBrains Mono, Input, SFMono-Regular",
+  "editor.fontSize": 14,
   "editor.renderWhitespace": "selection",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [{
@@ -33,7 +33,6 @@
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": true,
-  "workbench.sideBar.location": "right",
   "editor.colorDecorators": true,
   "workbench.list.keyboardNavigation": "filter",
   "editor.suggestSelection": "first",
@@ -51,13 +50,6 @@
   "emmet.syntaxProfiles": {
     "postcss": "css"
   },
-  "explorer.decorations.badges": false,
-  // "bracket-pair-colorizer-2.colors": [
-  //   "#63e6be",
-  //   "#8ce99a",
-  //   "#b197fc",
-  //   "#f06595"
-  // ],
   "bracket-pair-colorizer-2.activeScopeCSS": [
     "borderStyle : solid",
     "borderWidth : 1px",
@@ -71,12 +63,13 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
-  "vim.leader": "<space>",
+  "vim.leader": ",",
   "vim.easymotionMarkerBackgroundColor": "#00FF55cc",
-  "vim.easymotionMarkerWidthPerChar": 10,
+  "vim.easymotionMarkerWidthPerChar": 12,
   "vim.easymotionMarkerHeight": 20,
   "vim.easymotionMarkerFontFamily": "JetBrains Mono",
   "vim.easymotionMarkerFontSize": "12px",
+  "vim.easymotionMarkerYOffset":20,
   "vim.statusBarColorControl": true,
   "vim.statusBarColors.normal": "#212529",
   "editor.autoClosingQuotes": "always",
@@ -112,11 +105,13 @@
     "WORDPRESS",
     "aniket",
     "animejs",
+    "bugfix",
     "clienthost",
     "customizer",
     "garima",
     "immer",
     "jira",
+    "miragejs",
     "netent",
     "placemat",
     "playui",
@@ -148,20 +143,9 @@
   "search.smartCase": true,
   "editor.semanticHighlighting.enabled": true,
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#212529",
-    "statusBar.noFolderBackground": "#212529",
-    "statusBar.debuggingBackground": "#212529"
-  },
-  // "editor.tokenColorCustomizations": {
-  //   "strings": "#adb5bd",
-  //   "functions": "#868e96",
-  //   "types": "#868e96",
-  //   "keywords": "#342070",
-  // },
   "workbench.iconTheme": "Rosé Pine Icons",
   "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 3,
+  "workbench.editor.limit.value": 6,
   "diffEditor.renderSideBySide": true,
   "bracket-pair-colorizer-2.highlightActiveScope": true,
   "editor.formatOnSave": true,
@@ -170,7 +154,20 @@
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": false,
   "workbench.colorTheme": "Rosé Pine",
-  "editor.minimap.side": "left",
   "gitlens.views.repositories.files.layout": "list",
-  "amVim.smartRelativeLineNumbers": true
+  "amVim.smartRelativeLineNumbers": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.highlights.customHighlight": {
+      "TODO": {
+          "foreground": "#00FFFF",
+          "background": "#0000FF",
+        },
+      "FIXME": {
+        "foreground": "#FF0000",
+        "background": "#330000",
+      }
+  },
+  "git.confirmSync": false,
+  "editor.minimap.side": "left",
+  "workbench.sideBar.location": "right"
 }
