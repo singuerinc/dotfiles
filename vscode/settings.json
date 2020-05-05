@@ -1,6 +1,6 @@
 {
   "editor.fontFamily": "Hack, JetBrains Mono, Input, SFMono-Regular",
-  "editor.fontSize": 14,
+  "editor.fontSize": 20,
   "editor.renderWhitespace": "selection",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [{
@@ -153,7 +153,6 @@
   "prettier.semi": true,
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": false,
-  "workbench.colorTheme": "Rosé Pine",
   "gitlens.views.repositories.files.layout": "list",
   "amVim.smartRelativeLineNumbers": true,
   "todo-tree.tree.showScanModeButton": false,
@@ -169,5 +168,30 @@
   },
   "git.confirmSync": false,
   "editor.minimap.side": "left",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Rosé Pine",
+  "workbench.colorCustomizations": {
+    "[Rosé Pine]": {
+      "editorOverviewRuler.addedForeground": "#9ccfd8ff",
+      "editorOverviewRuler.border": "#0000",
+      "editorOverviewRuler.bracketMatchForeground": "#706e86ff",
+      "editorOverviewRuler.commonContentForeground": "#706e864d",
+      "editorOverviewRuler.currentContentForeground": "#f6c17780",
+      "editorOverviewRuler.deletedForeground": "#eb6f9280",
+      "editorOverviewRuler.errorForeground": "#eb6f92ff",
+      "editorOverviewRuler.findMatchForeground": "#706e864d",
+      "editorOverviewRuler.incomingContentForeground": "#9ccfd880",
+      "editorOverviewRuler.infoForeground": "#e0def4ff",
+      "editorOverviewRuler.modifiedForeground": "#ebbcbaff",
+      "editorOverviewRuler.rangeHighlightForeground": "#706e864d",
+      "editorOverviewRuler.selectionHighlightForeground": "#706e864d",
+      "editorOverviewRuler.warningForeground": "#f6c177ff",
+      "editorOverviewRuler.wordHighlightForeground": "#706e864d",
+      "editorOverviewRuler.wordHighlightStrongForeground": "#706e864d",
+
+      "scrollbarSlider.activeBackground": "#706e8666",
+      "scrollbarSlider.background": "#706e864d",
+      "scrollbarSlider.hoverBackground": "#706e864d"
+    }
+  }
 }
