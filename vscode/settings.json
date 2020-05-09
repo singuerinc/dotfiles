@@ -1,6 +1,6 @@
 {
   "editor.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
-  "editor.fontSize": 17,
+  "editor.fontSize": 19,
   "editor.renderWhitespace": "selection",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [{
@@ -16,7 +16,7 @@
       "color": "#FF000011"
   }],
   "files.trimTrailingWhitespace": true,
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 15,
   "editor.matchBrackets": "always",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
@@ -84,7 +84,6 @@
   "dimmer.context": 6,
   "dimmer.opacity": 10,
   "workbench.fontAliasing": "auto",
-  "terminal.integrated.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
   "git.untrackedChanges": "separate",
   "explorer.confirmDelete": false,
   "editor.minimap.renderCharacters": false,
@@ -107,6 +106,7 @@
     "animejs",
     "bugfix",
     "clienthost",
+    "cond",
     "customizer",
     "garima",
     "immer",
@@ -118,6 +118,7 @@
     "singuerinc",
     "uuidv",
     "vova",
+    "woff",
     "xstate"
   ],
   "workbench.editor.highlightModifiedTabs": true,
@@ -193,5 +194,20 @@
       "scrollbarSlider.background": "#706e864d",
       "scrollbarSlider.hoverBackground": "#706e864d"
     }
+  },
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontFamily": "Menlo",
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true, // enable semantic highlighting for all themes
+    "rules": {
+        // different color for all constants
+        "property.readonly": "#777",
+
+        // make all symbol declarations bold
+        "*.declaration": { "bold": true }
+    }
+  },
+  "files.exclude": {
+    "**/reports": true
   }
 }
