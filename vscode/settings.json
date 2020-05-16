@@ -3,18 +3,20 @@
   "editor.fontSize": 19,
   "editor.renderWhitespace": "selection",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
-  "editor.rulers": [{
-    "column": 80,
-    "color": "#00FF0011"
-  },
-  {
-    "column": 100,
-    "color": "#FF990011"
-  },
-  {
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#00FF0011"
+    },
+    {
+      "column": 100,
+      "color": "#FF990011"
+    },
+    {
       "column": 120,
       "color": "#FF000011"
-  }],
+    }
+  ],
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 15,
   "editor.matchBrackets": "always",
@@ -69,7 +71,7 @@
   "vim.easymotionMarkerHeight": 20,
   "vim.easymotionMarkerFontFamily": "JetBrains Mono",
   "vim.easymotionMarkerFontSize": "12px",
-  "vim.easymotionMarkerYOffset":20,
+  "vim.easymotionMarkerYOffset": 20,
   "vim.statusBarColorControl": true,
   "vim.statusBarColors.normal": "#212529",
   "editor.autoClosingQuotes": "always",
@@ -90,6 +92,7 @@
   "cSpell.userWords": [
     "Autoplay",
     "DEVTOOLS",
+    "Debounced",
     "ECAS",
     "FWSUPPORT",
     "PAYTABLE",
@@ -100,6 +103,7 @@
     "SITEURL",
     "SPACEBAR",
     "TOPBAR",
+    "Typestate",
     "Valentina",
     "WORDPRESS",
     "aniket",
@@ -108,14 +112,20 @@
     "clienthost",
     "cond",
     "customizer",
+    "editorconfig",
     "garima",
     "immer",
     "jira",
     "miragejs",
     "netent",
+    "nightwatch",
+    "nums",
     "placemat",
     "playui",
     "singuerinc",
+    "stylelint",
+    "swipeable",
+    "tslib",
     "uuidv",
     "vova",
     "woff",
@@ -143,8 +153,8 @@
   "workbench.preferredDarkColorTheme": "Tokyo Night",
   "search.smartCase": true,
   "editor.semanticHighlighting.enabled": true,
-  "workbench.preferredLightColorTheme": "Tokyo Night Light",
-  "workbench.iconTheme": "Rosé Pine Icons",
+  "workbench.preferredLightColorTheme": "Tokyo Night",
+  "workbench.iconTheme": "origamid-next-icons",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 6,
   "diffEditor.renderSideBySide": true,
@@ -158,19 +168,18 @@
   "amVim.smartRelativeLineNumbers": true,
   "todo-tree.tree.showScanModeButton": false,
   "todo-tree.highlights.customHighlight": {
-      "TODO": {
-          "foreground": "#00FFFF",
-          "background": "#0000FF",
-        },
-      "FIXME": {
-        "foreground": "#FF0000",
-        "background": "#330000",
-      }
+    "TODO": {
+      "foreground": "#00FFFF",
+      "background": "#0000FF"
+    },
+    "FIXME": {
+      "foreground": "#FF0000",
+      "background": "#330000"
+    }
   },
   "git.confirmSync": false,
   "editor.minimap.side": "left",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Rosé Pine",
   "workbench.colorCustomizations": {
     "[Rosé Pine]": {
       "editorOverviewRuler.addedForeground": "#9ccfd8ff",
@@ -200,14 +209,16 @@
   "editor.semanticTokenColorCustomizations": {
     "enabled": true, // enable semantic highlighting for all themes
     "rules": {
-        // different color for all constants
-        "property.readonly": "#777",
+      // different color for all constants
+      "property.readonly": "#777",
 
-        // make all symbol declarations bold
-        "*.declaration": { "bold": true }
+      // make all symbol declarations bold
+      "*.declaration": { "bold": true }
     }
   },
+  "workbench.colorTheme": "Tokyo Night",
   "files.exclude": {
+    "**/dist": true,
     "**/reports": true
   }
 }
