@@ -17,10 +17,10 @@ module.exports = {
     },
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
-    updateChannel: "canary",
+    updateChannel: "stable",
 
     // default font size in pixels for all tabs
-    fontSize: 20,
+    fontSize: 22,
 
     // font family with optional fallbacks
     fontFamily:
@@ -163,8 +163,8 @@ module.exports = {
     // "hyper-mono-christmas",
     // "hyper-pane",
     "hyper-rose-pine",
-    "hyper-statusline",
-    "hyperterm-dibdabs",
+    // "hyper-statusline",
+    // "hyperterm-dibdabs",
   ],
 
   // in development, you can create a directory under

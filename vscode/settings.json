@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "JetBrains Mono, Input, SFMono-Regular",
-  "editor.fontSize": 19,
-  "editor.renderWhitespace": "selection",
+  "editor.fontSize": 17,
+  "editor.renderWhitespace": "all",
   "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
   "editor.rulers": [
     {
@@ -19,7 +19,7 @@
   ],
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 15,
-  "editor.matchBrackets": "always",
+  "editor.matchBrackets": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "npm.packageManager": "yarn",
@@ -34,10 +34,11 @@
   "window.zoomLevel": 0,
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.colorDecorators": true,
   "workbench.list.keyboardNavigation": "filter",
   "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
   "editor.fontLigatures": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -52,13 +53,6 @@
   "emmet.syntaxProfiles": {
     "postcss": "css"
   },
-  "bracket-pair-colorizer-2.activeScopeCSS": [
-    "borderStyle : solid",
-    "borderWidth : 1px",
-    "borderColor : {color}",
-    "opacity: 0.5",
-    "backgroundColor : {color}"
-  ],
   "workbench.editor.showTabs": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -95,6 +89,8 @@
     "Debounced",
     "ECAS",
     "FWSUPPORT",
+    "Mealplan",
+    "Nahuel",
     "PAYTABLE",
     "PRODBUG",
     "Pierogi",
@@ -102,30 +98,48 @@
     "Quickspin",
     "SITEURL",
     "SPACEBAR",
+    "Scotti",
     "TOPBAR",
+    "Tweakpane",
     "Typestate",
     "Valentina",
     "WORDPRESS",
     "aniket",
+    "animatables",
     "animejs",
+    "autoplayer",
     "bugfix",
+    "builtins",
     "clienthost",
     "cond",
     "customizer",
+    "dashify",
     "editorconfig",
+    "frontmatter",
     "garima",
     "immer",
     "jira",
+    "lightgrey",
+    "middlewares",
     "miragejs",
     "netent",
     "nightwatch",
+    "npmrc",
+    "nprogress",
     "nums",
     "placemat",
     "playui",
+    "preact",
+    "rgba",
+    "scrollable",
     "singuerinc",
+    "sourcemap",
     "stylelint",
     "swipeable",
+    "tscache",
     "tslib",
+    "turbolinks",
+    "unmount",
     "uuidv",
     "vova",
     "woff",
@@ -145,16 +159,15 @@
     "Brewfile": "ruby",
     "*.alfredappearance": "json"
   },
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "files.watcherExclude": {
-    "**/dist": true
+    "**/dist": true,
+    ".cache": true
   },
-  "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Tokyo Night",
   "search.smartCase": true,
   "editor.semanticHighlighting.enabled": true,
-  "workbench.preferredLightColorTheme": "Tokyo Night",
-  "workbench.iconTheme": "origamid-next-icons",
+  "workbench.iconTheme": "verdandi",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 6,
   "diffEditor.renderSideBySide": true,
@@ -169,17 +182,13 @@
   "todo-tree.tree.showScanModeButton": false,
   "todo-tree.highlights.customHighlight": {
     "TODO": {
-      "foreground": "#00FFFF",
-      "background": "#0000FF"
+      "foreground": "#00FFFF"
     },
     "FIXME": {
-      "foreground": "#FF0000",
-      "background": "#330000"
+      "foreground": "#FF0000"
     }
   },
   "git.confirmSync": false,
-  "editor.minimap.side": "left",
-  "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
     "[Rosé Pine]": {
       "editorOverviewRuler.addedForeground": "#9ccfd8ff",
@@ -216,9 +225,16 @@
       "*.declaration": { "bold": true }
     }
   },
-  "workbench.colorTheme": "Tokyo Night",
   "files.exclude": {
-    "**/dist": true,
-    "**/reports": true
-  }
+    "**/reports": true,
+    ".cache": true
+  },
+  "files.associations": {
+    ".releaserc": "json"
+  },
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjowLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  "workbench.preferredLightColorTheme": "Visual Studio Light",
+  "bracket-pair-colorizer-2.colors": ["#555", "#777", "#999"],
+  "typescript.suggest.paths": false,
+  "workbench.colorTheme": "GitHub Dark"
 }

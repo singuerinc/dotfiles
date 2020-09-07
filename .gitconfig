@@ -68,7 +68,7 @@
 	# Merge GitHub pull request on top of the current branch or,
 	# if a branch name is specified, on top of the specified branch
 	mpr = "!f() { \
-		declare currentBranch=\"$(git symbolic-ref --short HEAD)\"; \
+            declare currentBranch=\"$(git symbolic-ref --short HEAD)\"; \
 		declare branch=\"${2:-$currentBranch}\"; \
 		if [ $(printf \"%s\" \"$1\" | grep '^[0-9]\\+$' > /dev/null; printf $?) -eq 0 ]; then \
 			git fetch origin refs/pull/$1/head:pr/$1 && \
@@ -176,16 +176,29 @@
 
 [core]
 	autocrlf = input
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/nahuel.scotti/.gitignore
 
 [hub]
 	protocol = https
 	insteadOf = "gist:"
 [user]
 	useConfigOnly = true
+	email = nahuel.scotti@gmail.com
+	name = Nahuel Scotti
 [user "netent"]
 	name = Nahuel Scotti
 	email = nahuel.scotti@netent.com
 [user "singuerinc"]
 	name = singuerinc
 	email = nahuel.scotti@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
