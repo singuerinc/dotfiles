@@ -148,9 +148,12 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+[merge]
+    rebase = true
 
 [push]
 	default = simple
+
 [url "git@github.com:"]
 
 	insteadOf = "gh:"
@@ -169,8 +172,6 @@
 
 [url "git://gist.github.com/"]
 
-[push]
-	default = simple
 [github]
 	token = b8fccb8155281beae741b6197541ed6e146ef053
 
